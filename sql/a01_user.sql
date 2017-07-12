@@ -10,17 +10,18 @@ Target Server Type    : MYSQL
 Target Server Version : 50718
 File Encoding         : 65001
 
-Date: 2017-07-12 19:30:13
+Date: 2017-07-12 23:05:11
 */
 
 SET FOREIGN_KEY_CHECKS=0;
 
 -- ----------------------------
--- Table structure for u1_user
+-- Table structure for a01_user
 -- ----------------------------
-DROP TABLE IF EXISTS `u1_user`;
-CREATE TABLE `u1_user` (
+DROP TABLE IF EXISTS `a01_user`;
+CREATE TABLE `a01_user` (
   `id` int(10) unsigned NOT NULL AUTO_INCREMENT COMMENT '用户id,主键,自动递增,无符号',
+  `wechat` varchar(255) NOT NULL COMMENT '用户微信',
   `usename` varchar(255) NOT NULL COMMENT '用户名',
   `passwords` varchar(255) NOT NULL,
   `nickname` varchar(255) NOT NULL COMMENT '昵称,默认是username',

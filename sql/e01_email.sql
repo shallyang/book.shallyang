@@ -10,16 +10,16 @@ Target Server Type    : MYSQL
 Target Server Version : 50718
 File Encoding         : 65001
 
-Date: 2017-07-12 19:30:00
+Date: 2017-07-12 23:04:31
 */
 
 SET FOREIGN_KEY_CHECKS=0;
 
 -- ----------------------------
--- Table structure for e1_email
+-- Table structure for e01_email
 -- ----------------------------
-DROP TABLE IF EXISTS `e1_email`;
-CREATE TABLE `e1_email` (
+DROP TABLE IF EXISTS `e01_email`;
+CREATE TABLE `e01_email` (
   `id` int(10) unsigned NOT NULL AUTO_INCREMENT COMMENT '邮箱id,主键,自动递增,无符号',
   `user_id` int(11) NOT NULL COMMENT '对应U1的id',
   `push_email` varchar(255) NOT NULL COMMENT '推送邮件的邮箱',

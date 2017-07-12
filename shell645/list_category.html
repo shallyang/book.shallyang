@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>商品分类</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/public.css">
+	<link rel="stylesheet" type="text/css" href="css/main_style.css">
+	<script type="text/javascript" src="http://apps.bdimg.com/libs/jquery/1.10.2/jquery.js"></script>
+	<script type="text/javascript" src="js/fontsize.js"></script>
+	<script type="text/javascript" src="js/public.js"></script>
+</head>
+<body class="pb100">
+<!-- 搜索 -->
+<div class="search-fixed">
+	<div class="bg-white pl20 pr20 pt10 pb10">
+		<div class="search pos_rel bg-gray-fa">
+			<input type="text" value="请输入商品的关键字" class="keywords f24" onclick="this.value=''" onblur="if(this.value=='') this.value='请输入商品的关键字'"></input><input type="button" value="&#xe60d;" class="iconfont btn_search f36 pos_abs"></input>
+		</div>
+	</div>
+</div>
+<!-- 分界线 -->
+<div class="line_gray"></div>
+<!-- 产品分类 -->
+<div class="tab_cate pos_rel clearfix">
+	<div class="tab_head pos_abs bg-white">
+		<ul id="f_category" class="tab_cate_hd txt-center f24">
+			<li class="cur"><a href="#">热销产品</a></li>
+			<li><a href="#">母婴用品</a></li>
+			<li><a href="#">进口酒水</a></li>
+			<li><a href="#">营养保健</a></li>
+			<li><a href="#">母婴用品</a></li>
+			<li><a href="#">进口酒水</a></li>
+			<li><a href="#">营养保健</a></li>
+			<li><a href="#">母婴用品</a></li>
+			<li><a href="#">进口酒水</a></li>
+			<li><a href="#">营养保健</a></li>
+			<li><a href="#">母婴用品</a></li>
+			<li><a href="#">进口酒水</a></li>
+			<li><a href="#">营养保健</a></li>
+			<li><a href="#">母婴用品</a></li>
+			<li><a href="#">进口酒水</a></li>
+			<li><a href="#">营养保健</a></li>
+		</ul>
+	</div>
+	<div class="tab_cate_cont bg-gray-fa">
+		<div class="tab_cate_bd mt10" style="display: block;">
+			<h3 class="normal f18">热销产品</h3>
+			<ul class="list_product txt-center clearfix">
+				<li><a href="list_products.html"><img src="images/none/c-1.jpg"><h5 class="normal">减肥健身</h5></a></li>
+				<li><a href="list_products.html"><img src="images/none/c-2.jpg"><h5 class="normal">增强免疫</h5></a></li>
+				<li><a href="list_products.html"><img src="images/none/c-3.jpg"><h5 class="normal">补气养血</h5></a></li>
+				<li><a href="list_products.html"><img src="images/none/c-4.jpg"><h5 class="normal">美白祛斑</h5></a></li>
+				<li><a href="list_products.html"><img src="images/none/c-6.jpg"><h5 class="normal">改善睡眠</h5></a></li>
+				<li><a href="list_products.html"><img src="images/none/c-5.jpg"><h5 class="normal">营养保健</h5></a></li>
+			</ul>
+			<h3 class="normal f18">奶粉</h3>
+			<ul class="list_product txt-center clearfix">
+				<li><a href="list_products.html"><img src="images/none/c-5.jpg"><h5 class="normal">减肥健身</h5></a></li>
+				<li><a href="list_products.html"><img src="images/none/c-4.jpg"><h5 class="normal">增强免疫</h5></a></li>
+				<li><a href="list_products.html"><img src="images/none/c-5.jpg"><h5 class="normal">补气养血</h5></a></li>
+				<li><a href="list_products.html"><img src="images/none/c-5.jpg"><h5 class="normal">美白祛斑</h5></a></li>
+				<li><a href="list_products.html"><img src="images/none/c-5.jpg"><h5 class="normal">改善睡眠</h5></a></li>
+				<li><a href="list_products.html"><img src="images/none/c-5.jpg"><h5 class="normal">营养保健</h5></a></li>
+			</ul>
+		</div>
+	</div>
+</div>
+<!-- 页脚导航 -->
+<ul class="foot clearfix txt-center bg-white foot_nav">
+	<li class="cur"><a href="index.html"><i class="iconfont f48">&#xe603;</i><span>商城首页</span></a></li>
+	<li><a href="list_category.html"><i class="iconfont f48">&#xe604;</i><span>商品分类</span></a></li>
+	<li><a href="carts.html"><i class="iconfont f48">&#xe605;</i><span>购物车</span></a></li>
+	<li><a href="user_center.html"><i class="iconfont f48">&#xe606;</i><span>个人中心</span></a></li>
+</ul>
+<script type="text/javascript">
+
+	$(function(){
+		setHeight();
+	});
+
+	$(window).resize(function(){
+		setHeight();
+	});
+
+	function setHeight(){
+		var h=$(window).outerHeight()-$('.search-fixed').height()-1-$('.foot').eq(0).outerHeight();
+		$('.tab_head').css('height', h);
+		$('.tab_cate_cont').css('height', h);
+
+		if($('#f_category').height()>$('.tab_head').height()){
+			$('#f_category').parent('.tab_head').addClass('over-scroll-y');
+		}else{
+			$('#f_category').parent('.tab_head').removeClass('over-scroll-y');
+		}
+
+		if($('.tab_cate_bd').height()>$('.tab_cate_cont').height()){
+			$('.tab_cate_bd').parent('.tab_cate_cont').addClass('over-scroll-y');
+		}else{
+			$('.tab_cate_bd').parent('.tab_cate_cont').removeClass('over-scroll-y');
+		}
+
+	}
+
+</script>
+<style>
+body{ padding-top:0.92rem;}
+</style>
+</body>
+</html>
