@@ -3,6 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>**商城全球购</title>
+	<base href="<?=$this->config->item('base_url')?>www/" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="css/public.css">
 	<link rel="stylesheet" type="text/css" href="css/main_style.css">
@@ -54,39 +55,42 @@
 <!-- 热购 -->
 <div class="hot_sell bg-white pt10">
 	<h3 class="title f20 normal">每日为你推荐全球好货</h3>
-	<div class="full_img"><img src="images/banner/img_ad.jpg" alt=""></div>
+	<!-- <div class="full_img"><img src="images/banner/img_ad.jpg" alt=""></div> -->
 </div>
 <div class="hot_products clearfix">
+<?php for($i=0;$i<10;$i++){ ?>
 	<div class="hot_prod_list">
 		<div class="box pos_rel">
 			<img src="images/none/img_1.jpg">
 			<h4><a href="">商场同款ROEM罗燕新品气质优雅小香风短外套RCJK66305B专柜正品</a></h4>
-			<div class="price"><span class="red new">￥<i>299</i></span><span class="old">￥<i>1080</i></span></div>
-			<a href="#" class="btn_buy red pos_abs">立即抢购</a>
+			<!-- <div class="price"><a href="#" class="btn_buy red pos_abs">推送到kindle</a></div> -->
+			<br>
+			<a href="#" class="btn_buy red pos_abs">推送到kindle</a>
 		</div>
 	</div>
+<?php } ?>
 	<div class="hot_prod_list">
 		<div class="box pos_rel">
 			<img src="images/none/img_2.jpg">
 			<h4><a href="">商场同款ROEM罗燕新品气质优雅小香风短外套</a></h4>
-			<div class="price"><span class="red new">￥<i>299</i></span><span class="old">￥<i>1080</i></span></div>
-			<a href="#" class="btn_buy red pos_abs">立即抢购</a>
+			<br>
+			<a href="#" class="btn_buy red pos_abs">推送到kindle</a>
 		</div>
 	</div>
 	<div class="hot_prod_list">
 		<div class="box pos_rel">
 			<img src="images/none/img_3.jpg">
 			<h4><a href="">商场同款ROEM罗燕新品气质优雅小香风短外套RCJK66305B专柜正品</a></h4>
-			<div class="price"><span class="red new">￥<i>299</i></span><span class="old">￥<i>1080</i></span></div>
-			<a href="#" class="btn_buy red pos_abs">立即抢购</a>
+			<br>
+			<a href="#" class="btn_buy red pos_abs">推送到kindle</a>
 		</div>
 	</div>
 	<div class="hot_prod_list">
 		<div class="box pos_rel">
 			<img src="images/none/img_4.jpg">
 			<h4><a href="">商场同款ROEM罗燕新品气质优雅小香风短外套RCJK66305B专柜正品</a></h4>
-			<div class="price"><span class="red new">￥<i>299</i></span><span class="old">￥<i>1080</i></span></div>
-			<a href="#" class="btn_buy red pos_abs">立即抢购</a>
+			<br>
+			<a href="#" class="btn_buy red pos_abs">推送到kindle</a>
 		</div>
 	</div>
 </div>
