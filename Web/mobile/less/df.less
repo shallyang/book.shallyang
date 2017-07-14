@@ -1,0 +1,345 @@
+.header{
+  overflow: hidden;
+  background-color: @white;
+  height: 44px;
+  padding: 5px 10px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 9;
+  border-bottom: 1px solid #ddd;
+  .logo{
+    float: left;
+    width: 200px;
+    //width: 60%;
+    img{
+      max-width: 100%;
+      height: auto;
+      display: block;
+    }
+  }
+  .search{
+    float: left;
+    width: 50%;
+    .weui_search_bar{
+      background-color: transparent;
+      padding: 5px 10%;
+      &:before{
+        height: 0;
+        width: 0;
+      }
+      &:after{
+        border-bottom: none;
+      }
+      .weui_search_outer {
+        border: 1px solid #ddd;
+        border-radius: 3px;
+        height: 32px;
+        .weui_search_text {
+          text-align: left;
+          left: 10px;
+          line-height: 22px;
+          .icon-magnifier {
+            line-height: 30px;
+            font-size: 1.75em;
+          }
+          span {
+            font-size: 0.75em;
+          }
+        }
+      }
+    }
+  }
+  .in-member{
+    float: right;
+    height: 44px;
+    line-height: 44px;
+    i.icon-home{
+      font-size: 20px;
+    }
+
+    //new add
+    .magnifier{
+      width: 44px;
+      height: 44px;
+      text-align: center;
+      display: inline-block;
+      i{
+        font-size: 35px;
+      }
+    }
+    a{
+      color: @dropcolor;
+    }
+  }
+}
+.top-height{
+  height: 54px;
+}
+.dropdown-list{
+  display: none;
+  position: absolute;
+  z-index: 12;
+  right: 4px;
+  top: 46px;
+  background: rgba(160, 163, 171,1);
+  border-radius: 5px;
+  width: 110px;
+  padding: 2%;
+  &:before{
+    content: "";
+    width: 0;
+    height: 0;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-bottom: 8px solid #a0a3ab;
+    position: absolute;
+    top: -8px;
+    right: 13px;
+    opacity: 0.8;
+  }
+  li{
+    a{
+      display: block;
+      font-size: @baseFontSize + 0.125em;
+      color: #333;
+      em{
+        color: @white;
+        background-color: #ff3444;
+        font-size: @baseFontSize;
+        border-radius: 20px;
+        padding: 0 3px;
+      }
+    }
+    & + li{
+      margin-top: 6px;
+    }
+  }
+}
+//底部
+.copyright{
+  font-size: @baseFontSize;
+  padding: 10px 0;
+  border-top: 1px solid #ddd;
+}
+
+.common-pad{
+  background: @white;
+  padding: 10px 2%;
+  .clear();
+}
+.title-name{
+  a{
+    color: #ff7376;
+    display: inline-block;
+    font-size: @baseFontSize;
+    line-height: @baseLineHeight - 5px;
+  }
+}
+//menu
+.menu-list{
+  padding: 10px 0;
+  ul{
+    li{
+      width: 20%;
+      float: left;
+      text-align: center;
+      margin: 5px 0;
+      span{
+        display: inline-block;
+        width: 48px;
+        height: 48px;
+        border-radius: 50%;
+        background: @orange;
+        color: @white;
+        margin-bottom: 4px;
+        i{
+          font-size: @baseFontSize + 0.75em;
+          line-height: 48px;
+        }
+      }
+      a{
+        display: block;
+      }
+      &:nth-child(1){
+         span{
+           background: #ff5256;
+         }
+       }
+      &:nth-child(2){
+        span{
+          background: #f03675;
+        }
+      }
+      &:nth-child(3){
+        span{
+          background: #9731f0;
+        }
+      }
+      &:nth-child(4){
+        span{
+          background: #fa6d04;
+        }
+      }
+      &:nth-child(5){
+        span{
+          background: #2c9cf7;
+        }
+      }
+      &:nth-child(6){
+        span{
+          background: #fb6014;
+        }
+      }
+      &:nth-child(7){
+        span{
+          background: #fe9b22;
+        }
+      }
+      &:nth-child(8){
+        span{
+          background: #fec429;
+        }
+      }
+    }
+  }
+}
+//class
+.class-list{
+  margin: 10px 0;
+  .clear();
+  ul{
+    li{
+      width: 48%;
+      float: left;
+      //text-align: center;
+      margin: 5px 1%;
+      h3{
+        .text-overflow();
+      }
+      //img{
+      //  filter:alpha(opacity=50);
+      //  -moz-opacity:0.5;
+      //  -khtml-opacity: 0.5;
+      //  opacity: 0.5;
+      //}
+    }
+  }
+}
+//news
+.index-news{
+  ul{
+    li{
+      margin: 5px 0;
+      a{
+        display: block;
+        font-size: @baseFontSize + 0.125em;
+        .text-overflow();
+        span{
+          display: inline-block;
+          width: 5px;
+          height: 5px;
+          background-color: #867461;
+          border-radius: 50%;
+          margin-right: 5px;
+        }
+      }
+    }
+  }
+}
+.index-play{
+  margin-bottom: 0;
+  ul > li{
+    &:first-child{
+      width: 98%;
+    }
+    a{
+      position: relative;
+      display: block;
+      i{
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        z-index: 9;
+        color: #ff5256;
+      }
+      //h2{
+      //  position: absolute;
+      //  top: 0;
+      //  right: 0;
+      //  z-index: 9;
+      //  background-color: #000;
+      //  width: 100%;
+      //  height: 100%;
+      //  filter:alpha(opacity=50);
+      //  filter:alpha(opacity=50);
+      //  -moz-opacity:0.5;
+      //  -khtml-opacity: 0.5;
+      //  opacity: 0.5;
+      //}
+    }
+  }
+}
+
+.new-tab{
+  background-color: @white;
+  .weui-media-box__title{
+    height: 44px;
+    white-space: normal;
+  }
+  .weui-media-box__desc{
+    span{
+      display: inline-block;
+      & + span{
+        margin-left: 15px;
+      }
+    }
+  }
+}
+//详情
+.weui_article {
+  padding: 10px 15px 20px;
+  font-size: @baseFontSize;
+  background-color: @white;
+  h1 {
+    font-size: 17px;
+    font-weight: 400;
+    margin-bottom: .75em;
+    span{
+      display: block;
+      font-size: @baseFontSize;
+      color: #999;
+      em{
+        margin-left: 8px;
+      }
+    }
+  }
+}
+.detail-con{
+  p{
+    text-indent: 15px;
+    margin-bottom: 6px;
+  }
+}
+.empty {
+  color: #999;
+  padding: 30px 0;
+
+  dt {
+    font-size: 36px;
+    margin-bottom: 5px;
+  }
+}
+.weui-panel__bd, .empty{
+  min-height: 370px;
+}
+.weui-panel__bd{
+  min-height: 430px;
+}
+.video{
+  position: relative;
+  video{
+    width: 100%;
+  }
+}

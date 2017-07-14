@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="img/ico/favicon.ico">
+
+    <title>鼎商动力后台管理系统 V1.1</title>
+
+    <!-- Ploceidae core CSS -->
+    <link href="css/ploceidae.css" rel="stylesheet">
+    <!-- perfect-scrollbar CSS -->
+    <link href="css/perfect-scrollbar.css" rel="stylesheet">
+    <!-- iCheck -->
+    <link rel="stylesheet" href="css/plugins/iCheck/flat/blue.css">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.min.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body class="hold-transition skin-blue sidebar-mini">
+<!-- Main Header -->
+<div id="header"></div>
+<div class="wrapper">
+    <!-- Left side column. contains the logo and sidebar -->
+    <div id="left"></div>
+    <!-- Content Wrapper. Contains page content -->
+    <div class="content-wrapper scroll_bar order-detail">
+        <div class="content">
+            <ol class="breadcrumb">
+                <li><a href="javascript:;"><i class="icon-crown"></i> 会员管理</a></li>
+                <li><a href="javascript:;"> 会员列表</a></li>
+                <li class="active">会员详情</li>
+            </ol>
+            <div class="box box-primary">
+                <div class="box-header with-border">
+                    <h5 class="box-title">会员详情</h5>
+                    <div class="box-tools">
+                        <div class="has-feedback">
+                            <a href="D1_member_list.html" class="btn btn-primary btn-sm"><i class="icon-jump"></i> 返回</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- /.box-header -->
+                <div class="box-body no-padding">
+                    <div class="order-detail-table">
+                        <div class="table-bot">
+                            <h5><b>会员：</b></h5>
+                            <table class="table table-bordered text-center">
+                                <tbody>
+                                <tr class="member-detail">
+                                    <td>
+                                    	<div>
+                                    		头像：<img src="img/temp/default-50x50.jpg" alt="头像">
+                                    	</div>
+                                    </td>
+                                    <td>昵称：喵小咪</td>
+                                    <td>真实姓名：张贝贝</td>
+                                    <td>性别：女</td>
+                                </tr>
+                                <tr>
+                                    <td>可用积分：8000</td>
+                                    <td>会员状态：正常</td>
+                                    <td>所在城市：中国 山东 青岛</td>
+                                    <td>详细地址：</td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /.content-wrapper -->
+</div>
+
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="js/jquery.min.js"></script>
+<!-- plugins -->
+<script src="js/plugins/transition.js"></script>
+<script src="js/plugins/dropdown.js"></script>
+<script src="js/plugins/tab.js"></script>
+<script src="js/plugins/tooltip.js"></script>
+<script src="js/plugins/modal.js"></script>
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+<script src="js/ie10-viewport-bug-workaround.js"></script>
+<!-- scrollbar -->
+<script src="js/scrollbar/jquery.mousewheel.js"></script>
+<script src="js/scrollbar/perfect-scrollbar.js"></script>
+<script type="text/javascript">
+    $(function(){
+        // 外部文件引入
+        $("#header").load("header.html");
+        $("#left").load("left.html");
+    });
+    // scrollbar 滚动条
+    //------------------------------------------
+    jQuery(document).ready(function ($) {
+        "use strict";
+        $('.scroll_bar').perfectScrollbar();
+    });
+</script>
+<!-- AdminLTE App -->
+<script src="js/app.js"></script>
+</body>
+</html>

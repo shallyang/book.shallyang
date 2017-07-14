@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="img/ico/favicon.ico">
+
+    <title>婚庆教学后台管理系统</title>
+
+    <!-- Ploceidae core CSS -->
+    <link href="css/ploceidae.css" rel="stylesheet">
+    <!-- perfect-scrollbar CSS -->
+    <link href="css/perfect-scrollbar.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.min.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body class="hold-transition skin-blue sidebar-mini">
+<!-- Main Header -->
+    <div id="header"></div>
+<div class="wrapper">
+    <!-- Left side column. contains the logo and sidebar -->
+    <div id="left"></div>
+
+    <!-- Content Wrapper. Contains page content -->
+    <div class="content-wrapper scroll_bar">
+        <div class="content">
+            <ol class="breadcrumb">
+                <li><a href="javascript:;"><i class="icon-file"></i> 文件中心</a></li>
+                <li>图片管理</li>
+                <li class="active">图片分类</li>
+            </ol>
+            <div class="box box-primary table-stripped">
+                <div class="box-header with-border">
+                    <h5 class="box-title">图片分类</h5>
+                    <div class="box-tools">
+                        <div class="has-feedback">
+                            <a href="F4_file_photo_add_photo_category.html" class="btn btn-primary btn-sm"><i class="icon-circle"></i> 添加子分类</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="box-header with-border">
+                        <div class="row-fluid text-center">
+                            <h5 class="span4 box-title text-left left">类型名称</h5>
+                            <h5 class="span4 box-title text-center absolute-right-49">状态</h5>
+                            <h5 class="span4 box-title text-right right">操作</h5>
+                        </div>
+                </div>
+                <!-- /.box-header -->
+                <div class="box-body">
+                    <ul class="tree tree-list">
+                        <li class="menu"><span>图片</span><!-- 1级 -->
+                            <div class="absolute-right-49">
+                                <i class="icon-right"></i>
+                            </div>
+                            <div class="operat-category"><!-- 分类操作 -->
+                                <a href="F4_file_photo_add_photo_category.html" role="button" class="btn btn-primary btn-sm"><i class="icon-circle"></i> 添加子分类</a>
+                                <a href="javascript:;" role="button" class="btn btn-success btn-sm"><i class="icon-tools"></i> 修改</a>
+                                <a href="javascript:;" role="button" class="btn btn-danger btn-sm" data-toggle="modal" data-target=".bs-example-modal-sm"><i class="icon-trash"></i> 删除</a>
+                            </div>
+                            <ul>
+                                <li class="sub-menu"><span>首页广告位</span><!-- 2级 -->
+                                    <div class="state-category absolute-right-49">
+                                        <i class="icon-error"></i>
+                                    </div>
+                                    <div class="operat-category">
+                                        <a href="F4_file_photo_add_photo_category.html" role="button" class="btn btn-primary btn-sm"><i class="icon-circle"></i> 添加子分类</a>
+                                        <a href="javascript:;" role="button" class="btn btn-success btn-sm"><i class="icon-tools"></i> 修改</a>
+                                        <a href="javascript:;" role="button" class="btn btn-danger btn-sm" data-toggle="modal" data-target=".bs-example-modal-sm"><i class="icon-trash"></i> 删除</a>
+                                    </div>
+                                    <ul>
+                                        <li class="son-menu"><span>站内快讯</span><!-- 3级 以此类推 -->
+                                            <div class="state-category absolute-right-49">
+                                                <i class="icon-right"></i>
+                                            </div>
+                                            <div class="operat-category">
+                                                <a href="F4_file_photo_add_photo_category.html" role="button" class="btn btn-primary btn-sm"><i class="icon-circle"></i> 添加子分类</a>
+                                                <a href="javascript:;" role="button" class="btn btn-success btn-sm"><i class="icon-tools"></i> 修改</a>
+                                                <a href="javascript:;" role="button" class="btn btn-danger btn-sm" data-toggle="modal" data-target=".bs-example-modal-sm"><i class="icon-trash"></i> 删除</a>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="menu">
+                            <span>新手上路</span>       <!-- 1级 -->
+                            <div class="state-category absolute-right-49">
+                                <i class="icon-right"></i>
+                            </div>
+                            <div class="operat-category">
+                                    <a href="F4_file_photo_add_photo_category.html" role="button" class="btn btn-primary btn-sm"><i class="icon-circle"></i> 添加子分类</a>
+                                    <a href="javascript:;" role="button" class="btn btn-success btn-sm"><i class="icon-tools"></i> 修改</a>
+                                    <a href="javascript:;" role="button" class="btn btn-danger btn-sm" data-toggle="modal" data-target=".bs-example-modal-sm"><i class="icon-trash"></i> 删除</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- /.content-wrapper -->
+</div>
+
+<!-- Modal -->
+<div class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+    <div class="modal-dialog modal-sm">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                <h5 class="modal-title" id="mySmallModalLabel">提示</h5>
+            </div>
+            <div class="modal-body text-center">
+                您确定要执行此操作？
+            </div>
+            <div class="modal-footer">
+                <a href="javascript:;" role="button" class="btn btn-success btn-sm pull-left">确认</a>
+                <a href="javascript:;" role="button" class="btn btn-warning btn-sm pull-right">放弃</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="js/jquery.min.js"></script>
+<!-- plugins -->
+<script src="js/plugins/transition.js"></script>
+<script src="js/plugins/dropdown.js"></script>
+<script src="js/plugins/tab.js"></script>
+<script src="js/plugins/modal.js"></script>
+<script src="js/plugins/treeview/jquery.treemenu.js"></script>
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+<script src="js/ie10-viewport-bug-workaround.js"></script>
+<!-- scrollbar -->
+<script src="js/scrollbar/jquery.mousewheel.js"></script>
+<script src="js/scrollbar/perfect-scrollbar.js"></script>
+<script type="text/javascript">
+
+    $(function(){
+        // 外部文件引入
+        $("#header").load("header.html");
+        $("#left").load("left.html");
+    });
+    // scrollbar 滚动条
+    //------------------------------------------
+    jQuery(document).ready(function ($) {
+        "use strict";
+        $('.scroll_bar').perfectScrollbar();
+    });
+    $(function () {
+        // Category
+        //------------------------------------------
+        $(".tree").treemenu({delay:300}).openActive();
+    });
+</script>
+<!-- AdminLTE App -->
+<script src="js/app.js"></script>
+
+</body>
+</html>

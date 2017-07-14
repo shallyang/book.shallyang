@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="img/ico/favicon.ico">
+
+    <title>婚庆教学后台管理系统</title>
+
+    <!-- Ploceidae core CSS -->
+    <link href="css/ploceidae.css" rel="stylesheet">
+    <!-- perfect-scrollbar CSS -->
+    <link href="css/perfect-scrollbar.css" rel="stylesheet">
+	<!-- iCheck checkbox-->
+    <link rel="stylesheet" href="css/plugins/iCheck/flat/blue.css">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.min.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body class="hold-transition skin-blue sidebar-mini">
+<!-- Main Header -->
+    <div id="header"></div>
+<div class="wrapper">
+    <!-- Left side column. contains the logo and sidebar -->
+    <div id="left"></div>
+
+    <!-- Content Wrapper. Contains page content -->
+    <div class="content-wrapper scroll_bar">
+        <div class="content">
+            <ol class="breadcrumb">
+                <li><a href="javascript:;"><i class="icon-gear"></i> 管理员管理</a></li>
+                <li class="active">权限组列表</li>
+            </ol>
+            <div class="box box-primary table-stripped">
+                <div class="box-header with-border">
+                    <h5 class="box-title">添加权限</h5>
+                    <div class="box-tools">
+                        <div class="has-feedback">
+                            <a href="F21_administrator_group.html" class="btn btn-primary btn-sm"><i class="icon-circle"></i> 返回</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="box-body no-padding">
+                    <ul class="tree tree-list mailbox-messages">
+                        <li class="menu">
+                        	<span class="cbAll"><input type="checkbox" name='batchCheckBox'> 市场部</span><!-- 1级 -->
+                            <ul>
+                                <li class="sub-menu"><span><input type="checkbox" name='batchCheckBox'>市场部子部门1</span><!-- 2级 -->
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="menu">
+                            <span class="cbAll"><input type="checkbox" name='batchCheckBox'> 新手上路</span><!-- 1级 -->
+                        </li>
+                        <li class="menu">
+	                        <span class="cbAll">
+	                        	<input type="checkbox" name='batchCheckBox'> 市场部2
+	                        </span><!-- 1级 -->
+                            <ul>
+                                <li class="sub-menu"><span><input type="checkbox" name='batchCheckBox'> 市场部子部门2-1</span><!-- 2级 -->
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="menu"><span><input type="checkbox" name='batchCheckBox'> 市场部3</span><!-- 1级 -->
+                            <ul>
+                                <li class="sub-menu"><span><input type="checkbox" name='batchCheckBox'> 市场部子部门3-1</span><!-- 2级 -->
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div class="box-footer clearfix">
+                    <a href="javascript:;" class="mailbox-messages btn btn-sm checkbox-toggle" style="padding-left: 0px;">
+                        <label><input type="checkbox" id="cbAll" value="all"> 全选</label>
+                    </a>
+                    <div class="btn-group" role="group">
+                        <a href="javascript:;" role="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target=".bs-example-modal-sm"> 保存</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- /.content-wrapper -->
+</div>
+
+<!-- Modal -->
+<div class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+    <div class="modal-dialog modal-sm">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                <h5 class="modal-title" id="mySmallModalLabel">提示</h5>
+            </div>
+            <div class="modal-body text-center">
+                您确定要执行此操作？
+            </div>
+            <div class="modal-footer">
+                <a href="javascript:;" role="button" class="btn btn-success btn-sm pull-left">确认</a>
+                <a href="javascript:;" role="button" class="btn btn-warning btn-sm pull-right">放弃</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="js/jquery.min.js"></script>
+<!-- plugins -->
+<script src="js/plugins/transition.js"></script>
+<script src="js/plugins/dropdown.js"></script>
+<script src="js/plugins/tab.js"></script>
+<script src="js/plugins/tooltip.js"></script>
+<script src="js/plugins/modal.js"></script>
+<script src="js/plugins/treeview/jquery.treemenu.js"></script>
+<script src="js/plugins/iCheck/icheck.min.js"></script>
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+<script src="js/ie10-viewport-bug-workaround.js"></script>
+<!-- scrollbar -->
+<script src="js/scrollbar/jquery.mousewheel.js"></script>
+<script src="js/scrollbar/perfect-scrollbar.js"></script>
+<script type="text/javascript">
+
+    $(function(){
+        // 外部文件引入
+        $("#header").load("header.html");
+        $("#left").load("left.html");
+    });
+    // scrollbar 滚动条
+    //------------------------------------------
+    jQuery(document).ready(function ($) {
+        "use strict";
+        $('.scroll_bar').perfectScrollbar();
+    });
+    $(function () {
+    	// 表单全选
+        $('#cbAll').on('ifChecked', function(event){
+            $('input[name="batchCheckBox"]').iCheck('check');
+        });
+        $('#cbAll').on('ifUnchecked', function(event){
+            $('input[name="batchCheckBox"]').iCheck('uncheck');
+        });
+        $('.cbAll').on('ifChecked', function(event){
+            $(this).next().children().find('input[name="batchCheckBox"]').iCheck('check');
+        });
+        $('.cbAll').on('ifUnchecked', function(event){
+            $(this).next().children().find('input[name="batchCheckBox"]').iCheck('uncheck');
+        });
+        
+        // Category
+        //------------------------------------------
+        $(".tree").treemenu({delay:300}).openActive();
+
+        // iCheck
+        //------------------------------------------
+        //Enable iCheck plugin for checkboxes
+        //iCheck for checkbox and radio inputs
+        $('.mailbox-messages input[type="checkbox"]').iCheck({
+            checkboxClass: 'icheckbox_flat-blue',
+            radioClass: 'iradio_flat-blue'
+        });
+
+        //Enable check and uncheck all functionality
+        $(".checkbox-toggle").click(function () {
+            var clicks = $(this).data('clicks');
+            if (clicks) {
+                //Uncheck all checkboxes
+                $(".mailbox-messages input[type='checkbox']").iCheck("uncheck");
+                $("i", this).removeClass("icon-check").addClass('icon-check-empty');
+            } else {
+                //Check all checkboxes
+                $(".mailbox-messages input[type='checkbox']").iCheck("check");
+                $("i", this).removeClass("icon-check-empty").addClass('icon-check');
+            }
+            $(this).data("clicks", !clicks);
+        });
+
+        // Tooltip
+        //------------------------------------------
+        $("[data-toggle='tooltip']").tooltip();
+    });
+</script>
+<!-- AdminLTE App -->
+<script src="js/app.js"></script>
+
+</body>
+</html>

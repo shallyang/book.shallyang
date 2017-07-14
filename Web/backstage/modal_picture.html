@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="img/ico/favicon.ico">
+
+    <title>鼎商动力后台管理系统 V1.1</title>
+
+    <!-- Ploceidae core CSS -->
+    <link href="css/ploceidae.css" rel="stylesheet">
+    <!-- perfect-scrollbar CSS -->
+    <link href="css/perfect-scrollbar.css" rel="stylesheet">
+    <!-- datepicker 普通日期选择器-->
+    <link rel="stylesheet" href="css/plugins/datepicker/datepicker3.css">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.min.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body class="hold-transition skin-blue sidebar-mini">
+<div class="photo-box">
+    <div class="search-list">
+        <form class="form-inline">
+            <div class="form-group">
+                <label>文件类型：</label>
+                <select class="form-control input-sm">
+                    <option>全部</option>
+                    <option>图片</option>
+                    <option>视频</option>
+                    <option>flash</option>
+                    <option>音频</option>
+                    <option>文件</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label>默认排序：</label>
+                <select class="form-control input-sm">
+                    <option>默认排序</option>
+                    <option>时间升序</option>
+                    <option>时间降序</option>
+                    <option>名称升序</option>
+                    <option>名称降序</option>
+                    <option>大小升序</option>
+                    <option>大小降序</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <input type="text" class="form-control input-sm" id="title" placeholder="按输入名称搜索">
+            </div>
+            <a type="button" role="button" class="btn btn-primary btn-sm"><i class="icon-magnifier"></i> 搜索</a>
+            <a href="javascript:;" class="btn btn-success btn-sm pull-right">进入文件中心</a>
+        </form>
+    </div>
+    <div class="modal-body clearfix">
+		<ul class="list-unstyled img-grid scroll_bar">
+	        <li>
+	            <a href="javascript:;" title="图片名称"><img src="img/temp/default.jpg" class="img-thumbnail" alt="图片名称"></a>
+	            <span>图片名称</span>
+	        </li>
+	        <li>
+	            <a href="javascript:;" title="图片名称"><img src="img/temp/default.jpg" class="img-thumbnail" alt="图片名称"></a>
+	            <span>图片名称</span>
+	        </li>
+	        <li>
+	            <a href="javascript:;" title="图片名称"><img src="img/temp/default.jpg" class="img-thumbnail" alt="图片名称"></a>
+	            <span>图片名称</span>
+	        </li>
+	        <li>
+	            <a href="javascript:;" title="图片名称"><img src="img/temp/default.jpg" class="img-thumbnail" alt="图片名称"></a>
+	            <span>图片名称</span>
+	        </li>
+	        <li>
+	            <a href="javascript:;" title="图片名称"><img src="img/temp/default.jpg" class="img-thumbnail" alt="图片名称"></a>
+	            <span>图片名称</span>
+	        </li>
+	        <li>
+	            <a href="javascript:;" title="图片名称"><img src="img/temp/default.jpg" class="img-thumbnail" alt="图片名称"></a>
+	            <span>图片名称</span>
+	        </li>
+	        <li>
+	            <a href="javascript:;" title="图片名称"><img src="img/temp/default.jpg" class="img-thumbnail" alt="图片名称"></a>
+	            <span>图片名称</span>
+	        </li>
+	        <li>
+	            <a href="javascript:;" title="图片名称"><img src="img/temp/default.jpg" class="img-thumbnail" alt="图片名称"></a>
+	            <span>图片名称</span>
+	        </li>
+	        <li>
+	            <a href="javascript:;" title="图片名称"><img src="img/temp/default.jpg" class="img-thumbnail" alt="图片名称"></a>
+	            <span>图片名称</span>
+	        </li>
+	        <li>
+	            <a href="javascript:;" title="图片名称"><img src="img/temp/default.jpg" class="img-thumbnail" alt="图片名称"></a>
+	            <span>图片名称</span>
+	        </li>
+	        <li>
+	            <a href="javascript:;" title="图片名称"><img src="img/temp/default.jpg" class="img-thumbnail" alt="图片名称"></a>
+	            <span>图片名称</span>
+	        </li>
+	        <li>
+	            <a href="javascript:;" title="图片名称"><img src="img/temp/default.jpg" class="img-thumbnail" alt="图片名称"></a>
+	            <span>图片名称</span>
+	        </li>
+	        <li>
+	            <a href="javascript:;" title="图片名称"><img src="img/temp/default.jpg" class="img-thumbnail" alt="图片名称"></a>
+	            <span>图片名称</span>
+	        </li>
+	        <li>
+	            <a href="javascript:;" title="图片名称"><img src="img/temp/default.jpg" class="img-thumbnail" alt="图片名称"></a>
+	            <span>图片名称</span>
+	        </li>
+	    </ul>
+	    <div class="box-footer clearfix">
+	        <ul class="pagination pagination-sm no-margin pull-right">
+	            <li class="disabled"><a href="javascript:;" aria-label="Previous" class="pre"><span aria-hidden="true"><i class="icon-arrow-left"></i></span></a></li>
+	            <li class="active"><a href="javascript:;">1 <span class="sr-only">(current)</span></a></li>
+	            <li><a href="javascript:;">2</a></li>
+	            <li><a href="javascript:;">3</a></li>
+	            <li><a href="javascript:;">4</a></li>
+	            <li><a href="javascript:;">...</a></li>
+	            <li><a href="javascript:;">100</a></li>
+	            <li><a href="javascript:;" aria-label="Next" class="next"><span aria-hidden="true"><i class="icon-arrow-right"></i></span></a></li>
+	            <li>
+	                <div class="input-group">
+	                    <input type="text" class="form-control">
+	                    <span class="input-group-btn"><a class="btn btn-primary">Go!</a></span>
+	                </div>
+	            </li>
+	        </ul>
+	    </div>   
+    </div>
+    
+</div>
+<script type="text/javascript">
+    // scrollbar 滚动条
+    //------------------------------------------
+    // jQuery(document).ready(function ($) {
+    //     "use strict";
+    //     $('.scroll_bar').perfectScrollbar();
+    // });
+    function insertObj(type,url,name){
+        if(type == 1){
+            var str = '<img src="'+url+'">';
+        }else if(type == 2){
+            var str = '<video src="'+url+'" width="320" height="240" controls autoplay loop>';
+            str += '<source type=video/mp4 />';
+            str += '您的浏览器不支持视频播放';
+            str += '</video>';
+        }else if(type == 3){
+            var str = '<audio src="'+url+'" controls autoplay loop>';
+            str += '您的浏览器不支持音频播放';
+            str += '</audio>';
+        }else{
+            var str = '<a href="'+url+'" target="_blank">'+name+'</a>';
+        }
+        window.parent.ue.execCommand('insertHtml',str);
+        window.parent.document.getElementById("uploadPic").style.display = "none";
+    }
+</script>
+</body>
+</html>

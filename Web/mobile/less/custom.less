@@ -1,0 +1,278 @@
+//== roll label
+.roll-label{
+  height: 50px;
+  overflow: hidden;
+  li{
+    line-height: 50px;
+    display: inline-block;
+    font-size: @font-size-base;
+    a{
+      display: block;
+      padding: 0 20px;
+    }
+  }
+}
+// 筛选
+.screen{
+  overflow: hidden;
+  span{
+    display: inline-block;
+    line-height: 30px;
+  }
+}
+// 面板
+.weui-media-box__bd .weui-media-box__desc{
+  position: relative;
+  line-height: @line-height-computed;
+  small{
+    display: block;
+  }
+}
+i.icon-star-full{
+  color: @pink;
+}
+i.icon-star-empty{
+  color: @graylighter;
+}
+.icons{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  .wechat, .heart{
+    width: 20px;
+    height: 20px;
+    line-height: 18px;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    color: #cfcfcf;
+    border: 1px solid #cfcfcf;
+    i{
+      font-size: 15px;
+    }
+  }
+}
+//== 课程详情 讲师列表
+.weui-media-box.weui-media-box_text.teacher-list{
+  .weui-media-box__desc{
+    border: 1px solid #cfcfcf;
+    padding: 15px;
+    padding-top: 50px;
+    position: relative;
+    overflow: inherit;
+    margin-top: 50px;
+    .card{
+      position: absolute;
+      width: 170px;
+      left: 50%;
+      margin-left: -85px;
+      padding: 5px;
+      top: -40px;
+      background-color: #fff;
+      .portrait{
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+        display: block;
+        float: left;
+        overflow: hidden;
+        img{
+          max-width: 100%;
+          vertical-align: middle;
+        }
+      }
+      .info{
+        line-height: (@line-height-computed - 5);
+        margin-left: 85px;
+        h6{
+          font-weight: normal;
+          color: @graydark;
+        }
+        span{
+          color: @graylighter;
+          display: block;
+        }
+      }
+    }
+  }
+}
+//== 课程详情 评论列表
+.weui-tab__bd .weui-tab__bd-item{
+  position: relative;
+  .weui-btn{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+}
+.common-list{
+  .common-edit{
+    text-align: center;
+    padding: 15px;
+    h5{
+      font-weight: 100;
+      font-size: 15px;
+    }
+    i{
+      font-size: 16px;
+    }
+  }
+  .weui-media-box__hd{
+    width: 48px;
+    height: 48px;
+    line-height: 48px;
+    border-radius: 50%;
+    overflow: hidden;
+    img{
+      max-width: 100%;
+    }
+  }
+  .weui-media-box__bd{
+    padding-right: 125px;
+    position: relative;
+    .icons{
+      bottom: auto;
+      top: 0;
+    }
+    .icons small{
+      float: left;
+      margin-left: 3px;
+      color: @graylighter;
+      &:last-child{
+        margin-top: -3px;
+      }
+    }
+    //.common-score{
+    //  line-height: 20px;
+    //  height: 20px;
+    //  position: absolute;
+    //  top: 0;
+    //  right: 0;
+    //  small{
+    //    display: inline-block;
+    //  }
+    //}
+  }
+}
+//== 加入课程 pop up 自定义
+.weui-popup__modal {
+  bottom: 20%;
+  top: 20%;
+  width: auto;
+  left: 15px;
+  right: 15px;
+  border-radius: 10px;
+  //padding: 15px;
+  background-color: #fff;
+
+  .popup-bottom & {}
+
+  .toolbar {
+
+    .toolbar-inner{
+      height: 40px;
+      position: relative;
+      .close-popup{
+        position: absolute;
+        left: 10px;
+        top: 10px;
+        width: 20px;
+        height: 20px;
+        line-height: 20px;
+        text-align: center;
+      }
+
+      p{
+        text-align: center;
+        height: 20px;
+        line-height: 20px;
+        display: block;
+      }
+    }
+
+  }
+  .modal-content {
+    height: 150px;
+    overflow: auto;
+    background-color: #efefef;
+    box-sizing: border-box;
+    textarea{
+      background-color: transparent;
+    }
+  }
+}
+
+.video video{
+  max-width: 100%;
+}
+.weui-tabbar {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  position: fixed;
+  z-index: 500;
+  bottom: 0;
+  width: 100%;
+  background-color: #fff;
+}
+.weui-tabbar:before {
+  content: " ";
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  height: 1px;
+  border-top: 1px solid #C0BFC4;
+  color: #C0BFC4;
+  -webkit-transform-origin: 0 0;
+  transform-origin: 0 0;
+  -webkit-transform: scaleY(0.5);
+  transform: scaleY(0.5);
+}
+.weui-tabbar__item {
+  padding: 0;
+  height: 50px;
+  //line-height: 50px;
+  font-size: @font-size-small;
+  color: @gray;
+  position: relative;
+  i{
+    margin-top: 8px;
+    font-size: 20px;
+  }
+  span{
+    display: block;
+  }
+  &:after{
+    content: "";
+    position: absolute;
+    background-color: #d0d0d0;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 1px;
+  }
+
+}
+.weui-tabbar__item:first-child:after{
+  display: none;
+}
+.weui-bar__item--on{
+  color: @color-danger;
+}
+
+  // demo 后期删除
+.more-news{
+  padding-top: 20px;
+  border-top: 1px solid #ddd;
+  font-size: @font-size-base;
+  color: #999;
+  margin-top: 30px;
+  img{
+    display: inline-block;
+    max-width: 50%;
+    height: auto;
+    margin-top: 15px;
+  }
+}

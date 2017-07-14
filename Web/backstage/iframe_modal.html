@@ -1,0 +1,776 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="img/ico/favicon.ico">
+
+    <title>鼎商动力后台管理系统 V1.1</title>
+
+    <!-- Ploceidae core CSS -->
+    <link href="css/ploceidae.css" rel="stylesheet">
+    <!-- perfect-scrollbar CSS -->
+    <link href="css/perfect-scrollbar.css" rel="stylesheet">
+    <!-- iCheck -->
+    <link rel="stylesheet" href="css/plugins/iCheck/minimal/blue.css">
+    <!-- 编辑器 -->
+    <!-- <link rel="stylesheet" href="css/plugins/umeditor/umeditor.css"> -->
+    <!-- datepicker 普通日期选择器-->
+    <link rel="stylesheet" href="css/plugins/datepicker/datepicker3.css">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.min.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body class="hold-transition skin-blue sidebar-mini">
+<!-- Main Header -->
+<header class="main-header">
+    <!-- Logo -->
+    <a href="javascript:;" class="logo">
+        <!-- mini logo mini菜单栏 50x50像素 -->
+        <span class="logo-mini">鼎</span>
+        <!-- logo 常规状态和移动状态 -->
+        <span class="logo-lg">鼎商动力后台管理系统</span>
+    </a>
+    <!-- Header Navbar -->
+    <nav class="navbar navbar-static-top" role="navigation">
+        <!-- 侧边栏切换按钮 -->
+        <a href="javascript:;" class="sidebar-toggle" data-toggle="offcanvas" role="button"><i class="icon-olist"></i></a>
+        <!-- Navbar Right Menu -->
+        <div class="navbar-custom-menu">
+            <ul class="nav navbar-nav">
+                <!-- Messages: dropdown.less-->
+                <li class="dropdown messages-menu">
+                    <!-- Menu toggle button -->
+                    <a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown">
+                        <i class="icon-email"></i>
+                        <span class="label label-success">4</span>
+                    </a>
+                    <ul class="dropdown-menu animated-dropdown-menu">
+                        <li class="hd">你有5条消息</li>
+                        <li class="bd">
+                            <!-- inner menu: contains the messages -->
+                            <ul class="menu scroll_bar">
+                                <li><!-- start message -->
+                                    <a href="javascript:;">
+                                        <div class="pull-left">
+                                            <!-- User Image -->
+                                            <img src="img/temp/user2-160x160.jpg" class="img-circle" alt="User Image">
+                                        </div>
+                                        <!-- Message title and timestamp -->
+                                        <h4>
+                                            支付宝提醒
+                                            <small><i class="icon-time"></i> 5 分钟前</small>
+                                        </h4>
+                                        <!-- The message -->
+                                        <p>为什么不买一个新的很棒的主题？</p>
+                                    </a>
+                                </li>
+                                <li><!-- start message -->
+                                    <a href="javascript:;">
+                                        <div class="pull-left">
+                                            <!-- User Image -->
+                                            <img src="img/temp/user2-160x160.jpg" class="img-circle" alt="User Image">
+                                        </div>
+                                        <!-- Message title and timestamp -->
+                                        <h4>
+                                            支付宝提醒
+                                            <small><i class="icon-time"></i> 5 分钟前</small>
+                                        </h4>
+                                        <!-- The message -->
+                                        <p>为什么不买一个新的很棒的主题？</p>
+                                    </a>
+                                </li>
+                                <li><!-- start message -->
+                                    <a href="javascript:;">
+                                        <div class="pull-left">
+                                            <!-- User Image -->
+                                            <img src="img/temp/user2-160x160.jpg" class="img-circle" alt="User Image">
+                                        </div>
+                                        <!-- Message title and timestamp -->
+                                        <h4>
+                                            支付宝提醒
+                                            <small><i class="icon-time"></i> 5 分钟前</small>
+                                        </h4>
+                                        <!-- The message -->
+                                        <p>为什么不买一个新的很棒的主题？</p>
+                                    </a>
+                                </li>
+                                <li><!-- start message -->
+                                    <a href="javascript:;">
+                                        <div class="pull-left">
+                                            <!-- User Image -->
+                                            <img src="img/temp/user2-160x160.jpg" class="img-circle" alt="User Image">
+                                        </div>
+                                        <!-- Message title and timestamp -->
+                                        <h4>
+                                            支付宝提醒
+                                            <small><i class="icon-time"></i> 5 分钟前</small>
+                                        </h4>
+                                        <!-- The message -->
+                                        <p>为什么不买一个新的很棒的主题？</p>
+                                    </a>
+                                </li>
+                                <li><!-- start message -->
+                                    <a href="javascript:;">
+                                        <div class="pull-left">
+                                            <!-- User Image -->
+                                            <img src="img/temp/user2-160x160.jpg" class="img-circle" alt="User Image">
+                                        </div>
+                                        <!-- Message title and timestamp -->
+                                        <h4>
+                                            支付宝提醒
+                                            <small><i class="icon-time"></i> 5 分钟前</small>
+                                        </h4>
+                                        <!-- The message -->
+                                        <p>为什么不买一个新的很棒的主题？</p>
+                                    </a>
+                                </li>
+                                <!-- end message -->
+                            </ul>
+                            <!-- /.menu -->
+                        </li>
+                        <li class="ft"><a href="javascript:;">查看所有</a></li>
+                    </ul>
+                </li>
+                <!-- /.messages-menu -->
+
+                <!-- Notifications Menu -->
+                <li class="dropdown notifications-menu">
+                    <!-- Menu toggle button -->
+                    <a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown">
+                        <i class="icon-clock"></i>
+                        <span class="label label-warning">10</span>
+                    </a>
+                    <ul class="dropdown-menu animated-dropdown-menu">
+                        <li class="hd">你有10条通知</li>
+                        <li class="bd">
+                            <!-- Inner Menu: contains the notifications -->
+                            <ul class="menu">
+                                <li><!-- start notification -->
+                                    <a href="javascript:;">
+                                        <i class="icon-user text-aqua"></i> 今天加入了4个新成员
+                                    </a>
+                                </li>
+                                <!-- end notification -->
+                            </ul>
+                        </li>
+                        <li class="ft"><a href="javascript:;">查看所有</a></li>
+                    </ul>
+                </li>
+                <!-- User Account Menu -->
+                <li class="dropdown user user-menu">
+                    <!-- Menu Toggle Button -->
+                    <a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown">
+                        <!-- The user image in the navbar-->
+                        <img src="img/temp/user2-160x160.jpg" class="user-image" alt="User Image">
+                        <!-- hidden-xs hides the username on small devices so only the image appears. -->
+                        <span class="hidden-xs">Leon.Zhu</span>
+                    </a>
+                    <ul class="dropdown-menu animated-dropdown-menu">
+                        <!-- The user image in the menu -->
+                        <li class="user-header">
+                            <img src="img/temp/user2-160x160.jpg" class="img-circle" alt="User Image">
+
+                            <p>
+                                Leon.Zhu 前端开发
+                                <small>2012-2016</small>
+                            </p>
+                        </li>
+                        <!-- Menu Footer-->
+                        <li class="user-footer">
+                            <div class="pull-right">
+                                <a href="javascript:;" class="btn btn-default btn-flat"><i class="icon-exit"></i></a>
+                            </div>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</header>
+<div class="wrapper">
+    <!-- Left side column. contains the logo and sidebar -->
+    <aside class="main-sidebar">
+        <!-- sidebar: sidebar.less -->
+        <div class="sidebar">
+            <!-- Sidebar user panel -->
+            <div class="user-panel">
+                <div class="pull-left image">
+                    <img src="img/temp/user2-160x160.jpg" class="img-circle" alt="User Image">
+                </div>
+                <div class="pull-left info">
+                    <p>Leon.Zhu</p>
+                    <a href="javascript:;"><i class="icon-circle"></i> 超级管理员</a>
+                </div>
+            </div>
+            <!-- search form -->
+            <form action="#" method="get" class="sidebar-form">
+                <div class="input-group">
+                    <input type="text" name="q" class="form-control" placeholder="搜索">
+                    <span class="input-group-btn">
+                    <button type="submit" name="search" id="search-btn" class="btn btn-flat"><i class="icon-magnifier"></i></button>
+                    </span>
+                </div>
+            </form>
+            <!-- sidebar menu: : sidebar.less -->
+            <div class="scroll_bar">
+                <ul class="sidebar-menu">
+                    <li class="treeview">
+                        <a href="javascript:;">
+                            <i class="icon-gear"></i> <span>系统设置</span> <i class="icon-arrow-left pull-right"></i>
+                        </a>
+                        <ul class="treeview-menu">
+                            <li>
+                                <a href="javascript:;"><i class="icon-circle"></i> 基本设置 <i class="icon-arrow-left pull-right"></i></a>
+                                <ul class="treeview-menu">
+                                    <li><a href="profile.html"><i class="icon-circle"></i> 网站设置</a></li>
+                                    <li><a href="keywords.html"><i class="icon-circle"></i> 关键词设置</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="javascript:;"><i class="icon-circle"></i> 管理员管理 <i class="icon-arrow-left pull-right"></i></a>
+                                <ul class="treeview-menu">
+                                    <li><a href="admin_list.html"><i class="icon-circle"></i> 管理员列表</a></li>
+                                    <li><a href="javascript:;"><i class="icon-circle"></i> 权限组列表</a></li>
+                                    <li><a href="admin_log.html"><i class="icon-circle"></i> 管理员日志</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="javascript:;"><i class="icon-circle"></i> 数据备份 <i class="icon-arrow-left pull-right"></i></a>
+                                <ul class="treeview-menu">
+                                    <li><a href="data_backup.html"><i class="icon-circle"></i> 数据库备份</a></li>
+                                    <li><a href="data_back.html"><i class="icon-circle"></i> 数据库还原</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="javascript:;"><i class="icon-circle"></i> 统计 <i class="icon-arrow-left pull-right"></i></a>
+                                <ul class="treeview-menu">
+                                    <li><a href="order_stats.html"><i class="icon-circle"></i> 订单统计</a></li>
+                                    <li><a href="user_stats.html"><i class="icon-circle"></i> 用户统计</a></li>
+                                    <li><a href="app_stats.html"><i class="icon-circle"></i> APP统计</a></li>
+                                    <li><a href="pay_stats.html"><i class="icon-circle"></i> 支付统计</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="treeview">
+                        <a href="javascript:;">
+                            <i class="icon-tools"></i> <span>网站管理</span> <i class="icon-arrow-left pull-right"></i>
+                        </a>
+                        <ul class="treeview-menu">
+                            <li>
+                                <a href="javascript:;"><i class="icon-circle"></i> 广告位管理 <i class="icon-arrow-left pull-right"></i></a>
+                                <ul class="treeview-menu">
+                                    <li><a href="ad_index.html"><i class="icon-circle"></i> 首页轮播</a></li>
+                                    <li><a href="javascript:;"><i class="icon-circle"></i> 内页顶部横幅</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="javascript:;"><i class="icon-circle"></i> 关于网站 <i class="icon-arrow-left pull-right"></i></a>
+                                <ul class="treeview-menu">
+                                    <li><a href="javascript:;"><i class="icon-circle"></i> 基本信息</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="javascript:;"><i class="icon-circle"></i> 新闻管理 <i class="icon-arrow-left pull-right"></i></a>
+                                <ul class="treeview-menu">
+                                    <li><a href="category.html"><i class="icon-circle"></i> 新闻分类</a></li>
+                                    <li><a href="article_list.html"><i class="icon-circle"></i> 新闻列表</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="javascript:;"><i class="icon-circle"></i> 招聘管理 <i class="icon-arrow-left pull-right"></i></a>
+                                <ul class="treeview-menu">
+                                    <li><a href="jobs_list.html"><i class="icon-circle"></i> 招聘职位</a></li><li>
+                                    <li><a href="jobs_apply.html"><i class="icon-circle"></i> 应聘职位</a></li><li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="treeview">
+                        <a href="javascript:;">
+                            <i class="icon-crown"></i> <span>会员管理</span> <i class="icon-arrow-left pull-right"></i>
+                        </a>
+                        <ul class="treeview-menu">
+                            <li>
+                                <a href="javascript:;"><i class="icon-circle"></i> 会员管理 <i class="icon-arrow-left pull-right"></i></a>
+                                <ul class="treeview-menu">
+                                    <li><a href="javascript:;"><i class="icon-circle"></i> 会员列表</a></li>
+                                    <li><a href="javascript:;"><i class="icon-circle"></i> 会员审核</a></li>
+                                    <li><a href="javascript:;"><i class="icon-circle"></i> 会员分组</a></li>
+                                    <li><a href="javascript:;"><i class="icon-circle"></i> 微信会员列表</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="javascript:;"><i class="icon-circle"></i> 积分商城管理 <i class="icon-arrow-left pull-right"></i></a>
+                                <ul class="treeview-menu">
+                                    <li><a href="javascript:;"><i class="icon-circle"></i> 积分兑换规则</a></li>
+                                    <li><a href="javascript:;"><i class="icon-circle"></i> 兑换商品列表</a></li>
+                                    <li><a href="javascript:;"><i class="icon-circle"></i> 兑换记录列表</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="treeview active">
+                        <a href="javascript:;">
+                            <i class="icon-store"></i> <span>商城管理</span> <i class="icon-arrow-left pull-right"></i>
+                        </a>
+                        <ul class="treeview-menu">
+                            <li class="active">
+                                <a href="javascript:;"><i class="icon-circle"></i> 商品管理 <i class="icon-arrow-left pull-right"></i></a>
+                                <ul class="treeview-menu">
+                                    <li class="active"><a href="product_list.html"><i class="icon-circle"></i> 商品管理</a></li>
+                                    <li><a href="javascript:;"><i class="icon-circle"></i> 商品类别管理</a></li>
+                                    <li><a href="javascript:;"><i class="icon-circle"></i> 商品品牌管理</a></li>
+                                    <li><a href="javascript:;"><i class="icon-circle"></i> 商品类型管理</a></li>
+                                    <li><a href="javascript:;"><i class="icon-circle"></i> 商品型号管理</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="javascript:;"><i class="icon-circle"></i> 商家订单 <i class="icon-arrow-left pull-right"></i></a>
+                                <ul class="treeview-menu">
+                                    <li><a href="javascript:;"><i class="icon-circle"></i> 订单列表</a></li>
+                                    <li><a href="javascript:;"><i class="icon-circle"></i> 物流商家列表</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="javascript:;"><i class="icon-circle"></i> 商城活动 <i class="icon-arrow-left pull-right"></i></a>
+                                <ul class="treeview-menu">
+                                    <li><a href="javascript:;"><i class="icon-circle"></i> 活动列表</a></li>
+                                    <li><a href="javascript:;"><i class="icon-circle"></i> 活动类型</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="javascript:;"><i class="icon-circle"></i> 商品评价 <i class="icon-arrow-left pull-right"></i></a>
+                                <ul class="treeview-menu">
+                                    <li><a href="javascript:;"><i class="icon-circle"></i> 评价管理</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="treeview">
+                        <a href="javascript:;">
+                            <i class="icon-wechat"></i> <span>微信管理</span> <i class="icon-arrow-left pull-right"></i>
+                        </a>
+                        <ul class="treeview-menu">
+                            <li>
+                                <a href="javascript:;"><i class="icon-circle"></i> 账号配置</a>
+                            </li>
+                            <li>
+                                <a href="javascript:;"><i class="icon-circle"></i> 推送管理</a>
+                            </li>
+                            <li>
+                                <a href="javascript:;"><i class="icon-circle"></i> 图文管理</a>
+                            </li>
+                            <li>
+                                <a href="javascript:;"><i class="icon-circle"></i> 自定义菜单</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="treeview">
+                        <a href="javascript:;">
+                            <i class="icon-file"></i> <span>文件管理</span> <i class="icon-arrow-left pull-right"></i>
+                        </a>
+                        <ul class="treeview-menu">
+                            <li>
+                                <a href="javascript:;"><i class="icon-circle"></i> 图片管理 <i class="icon-arrow-left pull-right"></i></a>
+                                <ul class="treeview-menu">
+                                    <li><a href="javascript:;"><i class="icon-circle"></i> 图片类别</a></li>
+                                    <li><a href="javascript:;"><i class="icon-circle"></i> 图片列表</a></li>
+                                    <li><a href="javascript:;"><i class="icon-circle"></i> 图片上传</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="javascript:;"><i class="icon-circle"></i> 多媒体管理 <i class="icon-arrow-left pull-right"></i></a>
+                                <ul class="treeview-menu">
+                                    <li><a href="javascript:;"><i class="icon-circle"></i> 多媒体类别</a></li>
+                                    <li><a href="javascript:;"><i class="icon-circle"></i> 多媒体管理</a></li>
+                                    <li><a href="javascript:;"><i class="icon-circle"></i> 多媒体上传</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="javascript:;"><i class="icon-circle"></i> 附件管理 <i class="icon-arrow-left pull-right"></i></a>
+                                <ul class="treeview-menu">
+                                    <li><a href="javascript:;"><i class="icon-circle"></i> 附件类别</a></li>
+                                    <li><a href="javascript:;"><i class="icon-circle"></i> 附件列表</a></li>
+                                    <li><a href="javascript:;"><i class="icon-circle"></i> 附件上传</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="treeview">
+                        <a href="javascript:;">
+                            <i class="icon-app"></i> <span>APPS管理</span> <i class="icon-arrow-left pull-right"></i>
+                        </a>
+                        <ul class="treeview-menu">
+                            <li>
+                                <a href="javascript:;"><i class="icon-circle"></i> 推送管理</a>
+                            </li>
+                            <li>
+                                <a href="javascript:;"><i class="icon-circle"></i> 其他设置 <i class="icon-arrow-left pull-right"></i></a>
+                                <ul class="treeview-menu">
+                                    <li><a href="javascript:;"><i class="icon-circle"></i> 其他设置</a></li>
+                                    <li><a href="javascript:;"><i class="icon-circle"></i> 其他设置</a></li>
+                                    <li>
+                                        <a href="javascript:;"><i class="icon-circle"></i> 其他设置 <i class="icon-arrow-left pull-right"></i></a>
+                                        <ul class="treeview-menu">
+                                            <li><a href="javascript:;"><i class="icon-circle"></i> 其他设置</a></li>
+                                            <li><a href="javascript:;"><i class="icon-circle"></i> 其他设置</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;"><i class="icon-circle"></i> 其他设置 <i class="icon-arrow-left pull-right"></i></a>
+                                        <ul class="treeview-menu">
+                                            <li><a href="javascript:;"><i class="icon-circle"></i> 其他设置</a></li>
+                                            <li><a href="javascript:;"><i class="icon-circle"></i> 其他设置</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+
+                </ul>
+            </div>
+
+        </div>
+        <!-- /.sidebar -->
+    </aside>
+
+    <!-- Content Wrapper. Contains page content -->
+    <div class="content-wrapper scroll_bar">
+        <div class="content">
+            <ol class="breadcrumb">
+                <li><a href="javascript:;"><i class="icon-store"></i> 商城管理</a></li>
+                <li><a href="javascript:;">商品管理</a></li>
+                <li class="active">添加商品</li>
+            </ol>
+            <div class="box box-primary">
+                <div class="box-header with-border">
+                    <h5 class="box-title">添加商品</h5>
+                    <div class="box-tools">
+                        <div class="has-feedback">
+                            <a href="product_list.html" class="btn btn-danger btn-sm"><i class="icon-circle"></i> 返回商品列表</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- /.box-header -->
+                <div class="box-body no-padding">
+                    <form class="form-horizontal">
+                        <div class="box-body">
+                            <div class="form-group has-error has-feedback">
+                                <label class="col-sm-2 control-label">产品名称：</label>
+                                <div class="col-sm-10">
+                                    <input class="form-control" type="text" placeholder="请输入产品名称">
+                                    <i class="icon-shutdown icon-sm form-control-feedback"></i>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="col-sm-2 control-label">产品副标题：</label>
+                                <div class="col-sm-10">
+                                    <input class="form-control" type="text" placeholder="请输入产品副标题">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="col-sm-2 control-label">发布人：</label>
+                                <div class="col-sm-10">
+                                    <input class="form-control" type="text" placeholder="请输入发布人">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="col-sm-2 control-label">发布时间：</label>
+                                <div class="col-sm-10">
+                                    <div class="input-group date">
+                                        <div class="input-group-addon">
+                                            <i class="icon-time"></i>
+                                        </div>
+                                        <input type="text" class="form-control pull-right datepicker" placeholder="请选择发布时间">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="col-sm-2 control-label">所属分类：</label>
+                                <div class="col-sm-10">
+                                    <select class="form-control">
+                                        <option>家用电器</option>
+                                        <option>手机数码</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="col-sm-2 control-label">所属品牌：</label>
+                                <div class="col-sm-10">
+                                    <select class="form-control">
+                                        <option>小米</option>
+                                        <option>华为</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="col-sm-2 control-label">商品类型：</label>
+                                <div class="col-sm-10">
+                                    <select class="form-control">
+                                        <option>全网通，支持双卡双待</option>
+                                        <option>移动4G</option>
+                                        <option>联通3G</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="col-sm-2 control-label">商品型号：</label>
+                                <div class="col-sm-10">
+                                    <select class="form-control">
+                                        <option>红米note3</option>
+                                        <option>小米3</option>
+                                        <option>小米note</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="col-sm-2 control-label">选择图片：</label>
+                                <div class="col-sm-10">
+                                    <div class="pic-add">
+                                        <ul class="list-unstyled img-grid pic-sorting">
+                                            <li class="item item1">
+                                                <span class="dragging">拖拽移动</span>
+                                                <a href="javascript:;" class="img hint hint-top" data-hint="点击更换图片" role="button" data-toggle="modal" data-target="#content-main"><img src="img/temp/default.jpg" class="img-responsive"></a>
+                                                <a href="javascript:;" class="delete"><i class="icon-shutdown"></i></a>
+                                            </li>
+                                            <li class="item item2">
+                                                <span class="dragging">拖拽移动</span>
+                                                <a href="javascript:;" class="img hint hint-top" data-hint="点击更换图片" role="button" data-toggle="modal" data-target="#content-main"><img src="img/temp/default.jpg" class="img-responsive"></a>
+                                                <a href="javascript:;" class="delete"><i class="icon-shutdown"></i></a>
+                                            </li>
+                                            <li class="item item2">
+                                                <span class="dragging">拖拽移动</span>
+                                                <a href="javascript:;" class="img hint hint-top" data-hint="点击更换图片" role="button" data-toggle="modal" data-target="#content-main"><img src="img/temp/default.jpg" class="img-responsive"></a>
+                                                <a href="javascript:;" class="delete"><i class="icon-shutdown"></i></a>
+                                            </li>
+                                            <li class="item item2">
+                                                <span class="dragging">拖拽移动</span>
+                                                <a href="javascript:;" class="img hint hint-top" data-hint="点击更换图片" role="button" data-toggle="modal" data-target="#content-main"><img src="img/temp/default.jpg" class="img-responsive"></a>
+                                                <a href="javascript:;" class="delete"><i class="icon-shutdown"></i></a>
+                                            </li>
+                                            <li class="item item2">
+                                                <span class="dragging">拖拽移动</span>
+                                                <a href="javascript:;" class="img hint hint-top" data-hint="点击更换图片" role="button" data-toggle="modal" data-target="#content-main"><img src="img/temp/default.jpg" class="img-responsive"></a>
+                                                <a href="javascript:;" class="delete"><i class="icon-shutdown"></i></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="col-sm-2 control-label">关键词：</label>
+                                <div class="col-sm-10">
+                                    <input class="form-control" type="text" placeholder="请输入关键词">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="col-sm-2 control-label">说明：</label>
+                                <div class="col-sm-10">
+                                    <textarea class="form-control" rows="5" placeholder="请输入说明"></textarea>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="col-sm-2 control-label">展示方式：</label>
+                                <div class="col-sm-10 lh-sm">
+                                    <label><input type="radio" name="r2" class="minimal" checked> HTMl编辑器</label>&nbsp;
+                                    <label><input type="radio" name="r2" class="minimal"> 链接网址</label>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="col-sm-2 control-label">外部链接：</label>
+                                <div class="col-sm-10">
+                                    <input class="form-control" type="text" placeholder="" value="http://">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="col-sm-2 control-label">内容：</label>
+                                <div class="col-sm-10">
+                                    <script type="text/plain" id="myEditor"></script>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-sm-10 col-sm-offset-2">
+                                    <button type="submit" class="btn btn-info btn-sm">保存</button>
+                                    <button type="submit" class="btn btn-default btn-sm">重置</button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- /.box-body -->
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /.content-wrapper -->
+</div>
+
+<!-- pop window pic-add 选择图片弹出 -->
+<div class="modal fade photo-box J_mainContent"  id="content-main" role="dialog" aria-labelledby="myModalLabel">
+	<iframe id="myframe" class="J_iframe" name="mainiframe" width="100%" height="100%" src="modal1.html" frameborder="0" data-id="home.php" seamless></iframe>
+    <!--<div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                <h4 class="modal-title" id="myModalLabel">插入图片</h4>
+            </div>
+            <div class="search-list">
+                <form class="form-inline">
+                    <div class="form-group">
+                        <label>状态：</label>
+                        <select class="form-control input-sm">
+                            <option>全部</option>
+                            <option>图片</option>
+                            <option>首页广告位</option>
+                            <option>航线广告位</option>
+                            <option>新闻广告位</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>默认排序：</label>
+                        <select class="form-control input-sm">
+                            <option>默认排序</option>
+                            <option>时间升序</option>
+                            <option>时间降序</option>
+                            <option>图片名称升序</option>
+                            <option>图片名称降序</option>
+                            <option>图片大小升序</option>
+                            <option>图片大小降序</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control input-sm" id="title" placeholder="按输入名称搜索">
+                    </div>
+                    <a type="button" role="button" class="btn btn-primary btn-sm"><i class="icon-magnifier"></i> 搜索</a>
+                    <a href="javascript:;" class="btn btn-success btn-sm pull-right">进入文件中心</a>
+                </form>
+            </div>
+            <div class="modal-body clearfix">
+                <ul class="list-unstyled img-grid scroll_bar">
+                    <li>
+                        <a href="javascript:;" title="图片名称"><img src="img/temp/default.jpg" class="img-thumbnail" alt="图片名称"></a>
+                        <span>图片名称</span>
+                    </li>
+                    <li>
+                        <a href="javascript:;" title="图片名称"><img src="img/temp/default.jpg" class="img-thumbnail" alt="图片名称"></a>
+                        <span>图片名称</span>
+                    </li>
+                    <li>
+                        <a href="javascript:;" title="图片名称"><img src="img/temp/default.jpg" class="img-thumbnail" alt="图片名称"></a>
+                        <span>图片名称</span>
+                    </li>
+                    <li>
+                        <a href="javascript:;" title="图片名称"><img src="img/temp/default.jpg" class="img-thumbnail" alt="图片名称"></a>
+                        <span>图片名称</span>
+                    </li>
+                    <li>
+                        <a href="javascript:;" title="图片名称"><img src="img/temp/default.jpg" class="img-thumbnail" alt="图片名称"></a>
+                        <span>图片名称</span>
+                    </li>
+                    <li>
+                        <a href="javascript:;" title="图片名称"><img src="img/temp/default.jpg" class="img-thumbnail" alt="图片名称"></a>
+                        <span>图片名称</span>
+                    </li>
+                    <li>
+                        <a href="javascript:;" title="图片名称"><img src="img/temp/default.jpg" class="img-thumbnail" alt="图片名称"></a>
+                        <span>图片名称</span>
+                    </li>
+                    <li>
+                        <a href="javascript:;" title="图片名称"><img src="img/temp/default.jpg" class="img-thumbnail" alt="图片名称"></a>
+                        <span>图片名称</span>
+                    </li>
+                    <li>
+                        <a href="javascript:;" title="图片名称"><img src="img/temp/default.jpg" class="img-thumbnail" alt="图片名称"></a>
+                        <span>图片名称</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>-->
+</div>
+
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="js/jquery.min.js"></script>
+<!-- plugins -->
+<script src="js/plugins/transition.js"></script>
+<script src="js/plugins/tooltip.js"></script>
+<script src="js/plugins/modal.js"></script>
+<script src="js/plugins/iCheck/icheck.min.js"></script>
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+<script src="js/ie10-viewport-bug-workaround.js"></script>
+<!-- scrollbar -->
+<script src="js/scrollbar/jquery.mousewheel.js"></script>
+<script src="js/scrollbar/perfect-scrollbar.js"></script>
+<!--图片排序-->
+<script src="js/plugins/dad/jquery.dad.min.js"></script>
+<!-- umeditor -->
+<!-- <script src="js/plugins/umeditor/umeditor.config.js"></script>
+<script src="js/plugins/umeditor/umeditor.min.js"></script>
+<script src="js/plugins/umeditor/lang/zh-cn/zh-cn.js"></script> -->
+<!-- 普通日期选择器 -->
+<script src="js/plugins/datepicker/datepicker.js"></script>
+<!--iframe-->
+<!--<script src="js/iframe.js"></script>-->
+<script type="text/javascript">
+    // scrollbar 滚动条
+    //------------------------------------------
+    jQuery(document).ready(function ($) {
+        "use strict";
+        $('.scroll_bar').perfectScrollbar();
+    });
+
+    //Date range picker with time picker（普通日期选择器）
+    $('.datepicker').datepicker({
+        autoclose: true
+    });
+
+    $(function () {
+        // iCheck
+        //------------------------------------------
+        //Enable iCheck plugin for checkboxes
+        //iCheck for checkbox and radio inputs
+        $('input[type="checkbox"].minimal, input[type="radio"].minimal').iCheck({
+            checkboxClass: 'icheckbox_minimal-blue',
+            radioClass: 'iradio_minimal-blue'
+        });
+
+        //Enable check and uncheck all functionality
+        $(".checkbox-toggle").click(function () {
+            var clicks = $(this).data('clicks');
+            if (clicks) {
+                //Uncheck all checkboxes
+                $(".mailbox-messages input[type='checkbox']").iCheck("uncheck");
+                $("i", this).removeClass("icon-check").addClass('icon-check-empty');
+            } else {
+                //Check all checkboxes
+                $(".mailbox-messages input[type='checkbox']").iCheck("check");
+                $("i", this).removeClass("icon-check-empty").addClass('icon-check');
+            }
+            $(this).data("clicks", !clicks);
+        });
+        // Tooltip
+        //------------------------------------------
+        $("[data-toggle='tooltip']").tooltip();
+    });
+
+    //图片排序
+    $(function(){
+        $('.pic-sorting').dad({
+            draggable: 'span'
+        });
+    });
+</script>
+<!-- AdminLTE App -->
+<script src="js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="img/ico/favicon.ico">
+
+    <title>婚庆教学后台管理系统</title>
+
+    <!-- Ploceidae core CSS -->
+    <link href="css/ploceidae.css" rel="stylesheet">
+    <!-- perfect-scrollbar CSS -->
+    <link href="css/perfect-scrollbar.css" rel="stylesheet">
+    <!-- iCheck checkbox-->
+    <link rel="stylesheet" href="css/plugins/iCheck/flat/blue.css">
+    <!-- datepicker 普通日期选择器-->
+    <link rel="stylesheet" href="css/plugins/datepicker/datepicker3.css">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.min.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body class="hold-transition skin-blue sidebar-mini">
+<!-- Main Header -->
+    <div id="header"></div>
+<div class="wrapper">
+    <!-- Left side column. contains the logo and sidebar -->
+    <div id="left"></div>
+
+    <!-- Content Wrapper. Contains page content -->
+    <div class="content-wrapper scroll_bar">
+        <div class="content">
+            <ol class="breadcrumb">
+                <li><a href="javascript:;"><i class="icon-gear"></i> 管理员管理</a></li>
+                <li class="active">管理员列表</li>
+            </ol>
+            <div class="box box-primary">
+                <div class="box-header with-border">
+                    <h5 class="box-title">管理员列表</h5>
+                    <div class="box-tools">
+                        <div class="has-feedback">
+                            <a href="F19_administrator_add.html" class="btn btn-primary btn-sm"><i class="icon-circle"></i> 添加管理员</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- /.box-header -->
+                <div class="box-body no-padding">
+                    <div class="mailbox-controls">
+                        <form class="form-inline">
+                            <!-- Check all button -->
+                            <div class="form-group">
+                                <label>选择分组：</label>
+                                <select class="form-control input-sm">
+                                    <option>全部</option>
+                                    <option>组名1</option>
+                                    <option>组名2</option>
+                                    <option>组名3</option>
+                                    <option>组名4</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label>状态：</label>
+                                <select class="form-control input-sm">
+                                    <option>全部</option>
+                                    <option>状态1</option>
+                                    <option>状态2</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label>添加时间：</label>
+                                <input type="text" class="form-control input-sm datepicker" placeholder="请选择发布时间"> -
+                                <input type="text" class="form-control input-sm datepicker" placeholder="请选择发布时间">
+                            </div>
+                            <div class="form-group">
+                                <label>姓名：</label>
+                                <input type="text" class="form-control input-sm" placeholder="请输入姓名">
+                            </div>
+                            <a href="javascript:;" role="button" class="btn btn-primary btn-sm"><i class="icon-magnifier"></i> 搜索</a>
+                        </form>
+                    </div>
+                    <div class="table-responsive mailbox-messages">
+                        <table class="table table-hover table-striped">
+                            <tbody>
+                            <tr>
+                                <th width="5%">编号</th>
+                                <th>登陆名称</th>
+                                <th class="text-center">姓名</th>
+                                <th class="text-center">所属分组</th>
+                                <th class="text-center">添加时间</th>
+                                <th class="text-center">最后登录时间</th>
+                                <th class="text-center">状态</th>
+                                <th class="text-right pad25">操作</th>
+                            </tr>
+                            <tr>
+                                <td><label><input type="checkbox"> 1</label></td>
+                                <td>Suuny</td>
+                                <td class="text-center">王兆杰</td>
+                                <td class="text-center">市场部</td>
+                                <td class="text-center">2015-02-08 16：05：50</td>
+                                <td class="text-center">2016-06-28 16：05：50</td>
+                                <td class="text-center"><a href="javascript:;"><i class="icon-close icon-sm font-red"></i></a></td>
+                                <td class="text-right">
+                                    <a href="javascript:;" role="button" class="btn btn-success btn-sm" data-toggle="modal" data-target="#gridSystemModal"><i class="icon-tools"></i> 修改</a>
+                                    <a href="javascript:;" role="button" class="btn btn-danger btn-sm" data-toggle="modal" data-target=".bs-example-modal-sm"><i class="icon-trash"></i> 删除</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><label><input type="checkbox"> 1</label></td>
+                                <td>Suuny</td>
+                                <td class="text-center">王兆杰</td>
+                                <td class="text-center">市场部</td>
+                                <td class="text-center">2015-02-08 16：05：50</td>
+                                <td class="text-center">2016-06-28 16：05：50</td>
+                                <td class="text-center"><a href="javascript:;"><i class="icon-close icon-sm font-red"></i></a></td>
+                                <td class="text-right">
+                                    <a href="javascript:;" role="button" class="btn btn-success btn-sm" data-toggle="modal" data-target="#gridSystemModal"><i class="icon-tools"></i> 修改</a>
+                                    <a href="javascript:;" role="button" class="btn btn-danger btn-sm" data-toggle="modal" data-target=".bs-example-modal-sm"><i class="icon-trash"></i> 删除</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><label><input type="checkbox"> 1</label></td>
+                                <td>Suuny</td>
+                                <td class="text-center">王兆杰</td>
+                                <td class="text-center">市场部</td>
+                                <td class="text-center">2015-02-08 16：05：50</td>
+                                <td class="text-center">2016-06-28 16：05：50</td>
+                                <td class="text-center"><a href="javascript:;"><i class="icon-close icon-sm font-red"></i></a></td>
+                                <td class="text-right">
+                                    <a href="javascript:;" role="button" class="btn btn-success btn-sm" data-toggle="modal" data-target="#gridSystemModal"><i class="icon-tools"></i> 修改</a>
+                                    <a href="javascript:;" role="button" class="btn btn-danger btn-sm" data-toggle="modal" data-target=".bs-example-modal-sm"><i class="icon-trash"></i> 删除</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><label><input type="checkbox"> 1</label></td>
+                                <td>Suuny</td>
+                                <td class="text-center">王兆杰</td>
+                                <td class="text-center">市场部</td>
+                                <td class="text-center">2015-02-08 16：05：50</td>
+                                <td class="text-center">2016-06-28 16：05：50</td>
+                                <td class="text-center"><a href="javascript:;"><i class="icon-sucess icon-sm font-green"></i></a></td>
+                                <td class="text-right">
+                                    <a href="javascript:;" role="button" class="btn btn-success btn-sm" data-toggle="modal" data-target="#gridSystemModal"><i class="icon-tools"></i> 修改</a>
+                                    <a href="javascript:;" role="button" class="btn btn-danger btn-sm" data-toggle="modal" data-target=".bs-example-modal-sm"><i class="icon-trash"></i> 删除</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><label><input type="checkbox"> 1</label></td>
+                                <td>Suuny</td>
+                                <td class="text-center">王兆杰</td>
+                                <td class="text-center">市场部</td>
+                                <td class="text-center">2015-02-08 16：05：50</td>
+                                <td class="text-center">2016-06-28 16：05：50</td>
+                                <td class="text-center"><a href="javascript:;"><i class="icon-sucess icon-sm font-green"></i></a></td>
+                                <td class="text-right">
+                                    <a href="javascript:;" role="button" class="btn btn-success btn-sm" data-toggle="modal" data-target="#gridSystemModal"><i class="icon-tools"></i> 修改</a>
+                                    <a href="javascript:;" role="button" class="btn btn-danger btn-sm" data-toggle="modal" data-target=".bs-example-modal-sm"><i class="icon-trash"></i> 删除</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><label><input type="checkbox"> 1</label></td>
+                                <td>Suuny</td>
+                                <td class="text-center">王兆杰</td>
+                                <td class="text-center">市场部</td>
+                                <td class="text-center">2015-02-08 16：05：50</td>
+                                <td class="text-center">2016-06-28 16：05：50</td>
+                                <td class="text-center"><a href="javascript:;"><i class="icon-sucess icon-sm font-green"></i></a></td>
+                                <td class="text-right">
+                                    <a href="javascript:;" role="button" class="btn btn-success btn-sm" data-toggle="modal" data-target="#gridSystemModal"><i class="icon-tools"></i> 修改</a>
+                                    <a href="javascript:;" role="button" class="btn btn-danger btn-sm" data-toggle="modal" data-target=".bs-example-modal-sm"><i class="icon-trash"></i> 删除</a>
+                                </td>
+                            </tr>
+                            </tbody>
+                        </table>
+                        <!-- /.table -->
+                    </div>
+                </div>
+                <div class="box-footer clearfix">
+                    <div class="mailbox-messages inline-block">
+                        <label><input id="checkAll" type="checkbox"> 全选</label>
+                    </div>
+                    <div class="btn-group" role="group">
+
+                        <a href="javascript:;" role="button" class="btn btn-info btn-sm" data-toggle="modal" data-target=".bs-example-modal-sm"><i class="icon-add"></i> 批量禁用</a>
+                        <a href="javascript:;" role="button" class="btn btn-success btn-sm" data-toggle="modal" data-target=".bs-example-modal-sm"><i class="icon-tools"></i> 批量启用</a>
+                        <a href="javascript:;" role="button" class="btn btn-danger btn-sm" data-toggle="modal" data-target=".bs-example-modal-sm"><i class="icon-trash"></i> 批量删除</a>
+
+                    </div>
+                    <ul class="pagination pagination-sm no-margin pull-right">
+                        <li class="disabled"><a href="javascript:;" aria-label="Previous"><span aria-hidden="true"><i class="icon-arrow-left"></i></span></a></li>
+                        <li class="active"><a href="javascript:;">1 <span class="sr-only">(current)</span></a></li>
+                        <li><a href="javascript:;">2</a></li>
+                        <li><a href="javascript:;">3</a></li>
+                        <li><a href="javascript:;">4</a></li>
+                        <li><a href="javascript:;">...</a></li>
+                        <li><a href="javascript:;">100</a></li>
+                        <li><a href="javascript:;" aria-label="Next"><span aria-hidden="true"><i class="icon-arrow-right"></i></span></a></li>
+                        <li>
+                            <div class="input-group">
+                                <input type="text" class="form-control">
+                                <span class="input-group-btn"><a class="btn btn-primary">Go!</a></span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- /.content-wrapper -->
+</div>
+
+<!-- Modal -->
+<div class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+    <div class="modal-dialog modal-sm">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                <h5 class="modal-title" id="mySmallModalLabel">提示</h5>
+            </div>
+            <div class="modal-body text-center">
+                您确定要执行此操作？
+            </div>
+            <div class="modal-footer">
+                <a href="javascript:;" role="button" class="btn btn-success btn-sm pull-left">确认</a>
+                <a href="javascript:;" role="button" class="btn btn-warning btn-sm pull-right">放弃</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Modal -->
+<!-- <div class="modal fade" id="gridSystemModal" tabindex="-1" role="dialog" aria-labelledby="gridModalLabel">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                <h5 class="modal-title" id="gridModalLabel">查看</h5>
+            </div>
+            <div class="modal-body text-center">
+                <img src="img/temp/flv.png">
+            </div>
+            <div class="modal-footer">
+                <a href="javascript:;" role="button" class="btn btn-success btn-sm text-center">确认</a>
+            </div>
+        </div>
+    </div>
+</div> -->
+
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="js/jquery.min.js"></script>
+<!-- plugins -->
+<script src="js/plugins/transition.js"></script>
+<script src="js/plugins/dropdown.js"></script>
+<script src="js/plugins/tab.js"></script>
+<script src="js/plugins/tooltip.js"></script>
+<script src="js/plugins/modal.js"></script>
+<script src="js/plugins/iCheck/icheck.min.js"></script>
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+<script src="js/ie10-viewport-bug-workaround.js"></script>
+<!-- scrollbar -->
+<script src="js/scrollbar/jquery.mousewheel.js"></script>
+<script src="js/scrollbar/perfect-scrollbar.js"></script>
+<!-- 普通日期选择器 -->
+<script src="js/plugins/datepicker/datepicker.js"></script>
+<script type="text/javascript">
+
+    $(function(){
+        // 外部文件引入
+        $("#header").load("header.html");
+        $("#left").load("left.html");
+
+    });
+    // scrollbar 滚动条
+    //------------------------------------------
+    jQuery(document).ready(function ($) {
+        "use strict";
+        $('.scroll_bar').perfectScrollbar();
+    });
+
+    //Date range picker with time picker（普通日期选择器）
+    $('.datepicker').datepicker({
+        autoclose: true
+    });
+
+    $(function () {
+        // iCheck
+        //------------------------------------------
+        //Enable iCheck plugin for checkboxes
+        //iCheck for checkbox and radio inputs
+        $('.mailbox-messages input[type="checkbox"]').iCheck({
+            checkboxClass: 'icheckbox_flat-blue',
+            radioClass: 'iradio_flat-blue'
+        });
+
+        //Enable check and uncheck all functionality
+        $(".checkbox-toggle").click(function () {
+            var clicks = $(this).data('clicks');
+            if (clicks) {
+                //Uncheck all checkboxes
+                $(".mailbox-messages input[type='checkbox']").iCheck("uncheck");
+                $("i", this).removeClass("icon-check").addClass('icon-check-empty');
+            } else {
+                //Check all checkboxes
+                $(".mailbox-messages input[type='checkbox']").iCheck("check");
+                $("i", this).removeClass("icon-check-empty").addClass('icon-check');
+            }
+            $(this).data("clicks", !clicks);
+        });
+        // Tooltip
+        //------------------------------------------
+        $("[data-toggle='tooltip']").tooltip();
+        //check all
+            $('#checkAll').on('ifChecked', function(event){
+                    $('input').iCheck('check');
+                });
+            $('#checkAll').on('ifUnchecked', function(event){
+                $('input').iCheck('uncheck');
+            });
+    });
+</script>
+<!-- AdminLTE App -->
+<script src="js/app.js"></script>
+</body>
+</html>

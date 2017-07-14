@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="img/ico/favicon.ico">
+
+    <title>鼎商动力后台管理系统 V1.1</title>
+
+    <!-- Ploceidae core CSS -->
+    <link href="css/ploceidae.css" rel="stylesheet">
+    <!-- perfect-scrollbar CSS -->
+    <link href="css/perfect-scrollbar.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.min.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body class="hold-transition skin-blue sidebar-mini">
+<!-- Main Header -->
+<div id="header"></div>
+<div class="wrapper">
+    <!-- Left side column. contains the logo and sidebar -->
+    <div id="left"></div>
+    <!-- Content Wrapper. Contains page content -->
+    <div class="content-wrapper scroll_bar">
+        <div class="content">
+            <ol class="breadcrumb">
+                <li><a href="javascript:;"><i class="icon-crown"></i> 会员管理</a></li>
+                <li><a href="javascript:;">积分商城</a></li>
+                <li class="active">添加商品</li>
+            </ol>
+            <div class="box box-primary">
+                <div class="box-header with-border">
+                    <h5 class="box-title">添加商品</h5>
+                    <div class="box-tools">
+                        <div class="has-feedback">
+                            <a href="D8_product_list.html" class="btn btn-primary btn-sm"><i class="icon-jump"></i> 返回</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- /.box-header -->
+                <div class="box-body no-padding">
+                    <form class="form-horizontal">
+                        <div class="box-body">
+                            <div class="form-group">
+                                <label class="col-sm-2 control-label"><span class="font-red">*&nbsp;</span>商品名称：</label>
+                                <div class="col-sm-10">
+                                    <input class="form-control" type="text" name="name" placeholder="请输入商品名称">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="col-sm-2 control-label"><span class="font-red">*&nbsp;</span>兑换积分：</label>
+                                <div class="col-sm-10">
+                                    <input class="form-control" type="text" name="change" placeholder="请输入兑换积分">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="col-sm-2 control-label"><span class="font-red">*&nbsp;</span>商品库存：</label>
+                                <div class="col-sm-10">
+                                    <input class="form-control" type="text" name="store" placeholder="请输入商品库存">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="col-sm-2 control-label">上架状态：</label>
+                                <div class="col-sm-10 lh-sm">
+                                    <label><input type="radio" name="r2" class="minimal" checked> 正常</label>&nbsp;
+                                    <label><input type="radio" name="r2" class="minimal"> 停用</label>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="col-sm-2 control-label">选择图片：</label>
+                                <div class="col-sm-10">
+                                    <div class="pic-add">
+                                        <ul class="list-unstyled img-grid pic-sorting">
+                                            <li class="item item1">
+                                                <span class="dragging">拖拽移动</span>
+                                                <a href="#photo-box" class="img hint hint-top" data-hint="点击更换图片" role="button" data-toggle="modal" data-target="#photo-box"><img src="img/temp/default.jpg" class="img-responsive"></a>
+                                                <a href="javascript:;" class="delete"><i class="icon-shutdown"></i></a>
+                                            </li>
+                                            <li class="item item2">
+                                                <span class="dragging">拖拽移动</span>
+                                                <a href="#photo-box" class="img hint hint-top" data-hint="点击更换图片" role="button" data-toggle="modal" data-target="#photo-box"><img src="img/temp/default.jpg" class="img-responsive"></a>
+                                                <a href="javascript:;" class="delete"><i class="icon-shutdown"></i></a>
+                                            </li>
+                                            <li class="item item2">
+                                                <span class="dragging">拖拽移动</span>
+                                                <a href="#photo-box" class="img hint hint-top" data-hint="点击更换图片" role="button" data-toggle="modal" data-target="#photo-box"><img src="img/temp/default.jpg" class="img-responsive"></a>
+                                                <a href="javascript:;" class="delete"><i class="icon-shutdown"></i></a>
+                                            </li>
+                                            <li class="item item2">
+                                                <span class="dragging">拖拽移动</span>
+                                                <a href="#photo-box" class="img hint hint-top" data-hint="点击更换图片" role="button" data-toggle="modal" data-target="#photo-box"><img src="img/temp/default.jpg" class="img-responsive"></a>
+                                                <a href="javascript:;" class="delete"><i class="icon-shutdown"></i></a>
+                                            </li>
+                                            <li class="item item2">
+                                                <span class="dragging">拖拽移动</span>
+                                                <a href="#photo-box" class="img hint hint-top" data-hint="点击更换图片" role="button" data-toggle="modal" data-target="#photo-box"><img src="img/temp/default.jpg" class="img-responsive"></a>
+                                                <a href="javascript:;" class="delete"><i class="icon-shutdown"></i></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="col-sm-2 control-label">内容：</label>
+                                <div class="col-sm-10">
+                                    <textarea id="editor_id" name="content" style="width:100%;height:300px;"></textarea>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-sm-10 col-sm-offset-2">
+                                    <button type="submit" class="btn btn-info btn-sm">保存</button>
+                                    <button type="submit" class="btn btn-default btn-sm">重置</button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- /.box-body -->
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /.content-wrapper -->
+</div>
+
+<!-- pop window pic-add 选择图片弹出 -->
+<div class="modal fade photo-box" id="photo-box" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+        	<div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                <h4 class="modal-title" id="myModalLabel">插入图片</h4>
+            </div>
+            <div id="photoPic"></div>
+        </div>
+    </div>
+</div>
+
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="js/jquery.min.js"></script>
+<!-- plugins -->
+<script src="js/plugins/transition.js"></script>
+<script src="js/plugins/tooltip.js"></script>
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+<script src="js/ie10-viewport-bug-workaround.js"></script>
+<!-- scrollbar -->
+<script src="js/scrollbar/jquery.mousewheel.js"></script>
+<script src="js/scrollbar/perfect-scrollbar.js"></script>
+<!--图片排序-->
+<script src="js/plugins/dad/jquery.dad.min.js"></script>
+<!-- KindEditor -->
+<script src="js/plugins/KindEditor/kindeditor.js"></script>
+<script src="js/plugins/KindEditor/lang/zh_CN.js"></script>
+<script src="js/plugins/modal.js"></script>
+<script src="js/plugins/KindEditor.js"></script>
+<!-- 表单验证 -->
+<script src="js/plugins/validation/jquery.validate.js"></script>
+<script type="text/javascript">
+    // scrollbar 滚动条
+    //------------------------------------------
+    jQuery(document).ready(function ($) {
+        "use strict";
+        $('.scroll_bar').perfectScrollbar();
+    });
+
+    $(function(){
+        // 外部文件引入
+        $("#header").load("header.html");
+        $("#left").load("left.html");
+        $("#photoPic").load("modal_picture.html");
+    });
+
+    //图片排序
+    $(function(){
+        $('.pic-sorting').dad({
+            draggable: 'span'
+        });
+        $("[data-name='imageNew']").click(function(){
+            $("#photo-box").modal("show");
+            console.log()
+        });
+    });
+    function openModal(){
+        $("body").addClass("modal-open");
+        var html = "<div class='modal-backdrop fade in'></div>";
+        $("body").append(html);
+        $("#photo-box").show();
+        $("#photo-box").find(".modal-dialog").animate({top:'0%'});
+        $("#photo-box").addClass("in");
+    }
+    $(".close").click(function(){
+        $("body").removeClass("modal-open");
+        $("#photo-box").removeClass("in");
+        $(".modal-backdrop").remove();
+        $("#photo-box").fadeOut();
+    })
+
+    //表单验证
+    $().ready(function(){
+        $(".form-horizontal").validate({
+            rules: {
+                name: {
+                    required: true
+                },
+                price: {
+                    required: true
+                },
+                change: {
+                    required: true
+                },
+                number: {
+                    required: true
+                },
+                store: {
+                    required: true
+                }
+            },
+            messages: {
+                name: {
+                    required: "请输入商品名称"
+                },
+                price: {
+                    required: "请输入价格"
+                },
+                change: {
+                    required: "请输入兑换积分"
+                },
+                number: {
+                    required: "请输入剩余数量"
+                },
+                store: {
+                    required: "请输入商品库存"
+                }
+            }
+        })
+    });	
+</script>
+<!-- AdminLTE App -->
+<script src="js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="img/ico/favicon.ico">
+
+    <title>鼎商动力后台管理系统 V1.1</title>
+
+    <!-- Ploceidae core CSS -->
+    <link href="css/ploceidae.css" rel="stylesheet">
+    <!-- perfect-scrollbar CSS -->
+    <link href="css/perfect-scrollbar.css" rel="stylesheet">
+    <!-- iCheck checkbox-->
+    <link rel="stylesheet" href="css/plugins/iCheck/flat/blue.css">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.min.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body class="hold-transition skin-blue sidebar-mini">
+<!-- Main Header -->
+<div id="header"></div>
+<div class="wrapper">
+    <!-- Left side column. contains the logo and sidebar -->
+    <div id="left"></div>
+
+    <!-- Content Wrapper. Contains page content -->
+    <div class="content-wrapper scroll_bar">
+        <div class="content">
+            <ol class="breadcrumb">
+                <li><a href="javascript:;"><i class="icon-tools"></i> 新闻管理</a></li>
+                <li class="active">新闻列表</li>
+            </ol>
+            <div class="box box-primary">
+                <div class="box-header with-border">
+                    <h5 class="box-title">新闻列表</h5>
+                    <div class="box-tools">
+                        <div class="has-feedback">
+                            <a href="C2_news_add.html" class="btn btn-primary btn-sm"><i class="icon-circle"></i> 添加新闻</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- /.box-header -->
+                <div class="box-body no-padding">
+                    <div class="mailbox-controls">
+                        <form class="form-inline">
+                            <div class="form-group">
+                                <label>选择类别：</label>
+                                <select class="form-control input-sm">
+                                    <option>全部</option>
+                                    <option>顶级分类</option>
+                                    <option>站内快讯</option>
+                                    <option>系统分类</option>
+                                    <option>-联系我们</option>
+                                    <option>-会员中心</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label>关键词：</label>
+                                <input type="email" class="form-control input-sm" placeholder="请输入关键词">
+                            </div>
+                            <a href="javascript:;" role="button" class="btn btn-primary btn-sm"><i class="icon-magnifier"></i> 搜索</a>
+                        </form>
+                    </div>
+                    <div class="table-responsive mailbox-messages">
+                        <table class="table table-hover table-striped">
+                            <tbody>
+                            <tr>
+                                <th width="5%">编号</th>
+                                <th class="text-left">新闻标题</th>
+                                <th class="text-left">所属类型</th>
+                                <th class="text-left">发布日期</th>
+                                <th class="text-left">显示</th>
+                                <th class="text-right pad25">操作</th>
+                            </tr>
+                            <tr>
+                                <td><label><input type="checkbox" name="batchCheckBox"> 1</label></td>
+                                <td><a href="javascript:;" title="柏悦酒店，囍悦之时光足迹主题婚礼秀">柏悦酒店，囍悦之时光足迹主题婚礼秀</a> </td>
+                                <td class="text-left">婚庆资讯</td>
+                                <td class="text-left">2017-01-18</td>
+                                <td class="text-center"><a href="javascript:;"><i class="icon-right icon-sm"></i></a></td>
+                                <td class="text-right">
+                                    <a href="C2_news_add.html" class="btn btn-success btn-sm"><i class="icon-tools"></i> 修改</a>
+                                    <a href="javascript:;" role="button" class="btn btn-danger btn-sm" data-toggle="modal" data-target=".bs-example-modal-sm"><i class="icon-trash"></i> 删除</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><label><input type="checkbox" name="batchCheckBox"> 2</label></td>
+                                <td><a href="javascript:;" title="官方使用提示信息">官方使用提示信息</a> </td>
+                                <td class="text-left">婚庆资讯</td>
+                                <td class="text-left">2017-01-18</td>
+                                <td class="text-center"><a href="javascript:;" data-toggle="tooltip"><i class="icon-error icon-sm"></i></a></td>
+                                <td class="text-right">
+                                    <a href="javascript:;" class="btn btn-success btn-sm"><i class="icon-tools"></i> 修改</a>
+                                    <a href="javascript:;" role="button" class="btn btn-danger btn-sm" data-toggle="modal" data-target=".bs-example-modal-sm"><i class="icon-trash"></i> 删除</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><label><input type="checkbox" name="batchCheckBox"> 3</label></td>
+                                <td><a href="javascript:;" title="官方使用提示信息">官方使用提示信息</a> </td>
+                                <td class="text-left">通知公告</td>
+                                <td class="text-left">2017-01-18</td>
+                                <td class="text-center"><a href="javascript:;" data-toggle="tooltip"><i class="icon-right icon-sm"></i></a></td>
+                                <td class="text-right">
+                                    <a href="javascript:;" class="btn btn-success btn-sm"><i class="icon-tools"></i> 修改</a>
+                                    <a href="javascript:;" role="button" class="btn btn-danger btn-sm" data-toggle="modal" data-target=".bs-example-modal-sm"><i class="icon-trash"></i> 删除</a>
+                                </td>
+                            </tr>
+
+                            </tbody>
+                        </table>
+                        <!-- /.table -->
+                    </div>
+                    <!-- /.mail-box-messages -->
+                </div>
+                <div class="box-footer clearfix">
+                   <a href="javascript:;" class="mailbox-messages btn btn-sm checkbox-toggle" style="padding-left: 0px;">
+                        <label><input type="checkbox" id="cbAll" value="all"> 全选</label>
+                    </a>
+                    <div class="btn-group" role="group">
+                        <a href="javascript:;" role="button" class="btn btn-danger btn-sm" data-toggle="modal" data-target=".bs-example-modal-sm"><i class="icon-trash"></i> 批量删除</a>
+                        <a href="javascript:;" role="button" class="btn btn-success btn-sm" data-toggle="modal" data-target=".bs-example-modal-sm"><i class="icon-tools"></i> 正常</a>
+                        <a href="javascript:;" role="button" class="btn btn-info btn-sm" data-toggle="modal" data-target=".bs-example-modal-sm"><i class="icon-add"></i> 停用</a>
+                    </div>
+                    <ul class="pagination pagination-sm no-margin pull-right">
+                        <li class="disabled"><a href="javascript:;" aria-label="Previous"><span aria-hidden="true"><i class="icon-arrow-left"></i></span></a></li>
+                        <li class="active"><a href="javascript:;">1 <span class="sr-only">(current)</span></a></li>
+                        <li><a href="javascript:;">2</a></li>
+                        <li><a href="javascript:;">3</a></li>
+                        <li><a href="javascript:;">4</a></li>
+                        <li><a href="javascript:;">...</a></li>
+                        <li><a href="javascript:;">100</a></li>
+                        <li><a href="javascript:;" aria-label="Next"><span aria-hidden="true"><i class="icon-arrow-right"></i></span></a></li>
+                        <li>
+                            <div class="input-group">
+                                <input type="text" class="form-control">
+                                <span class="input-group-btn"><a class="btn btn-primary">Go!</a></span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /.content-wrapper -->
+</div>
+<!-- Modal -->
+<div class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+    <div class="modal-dialog modal-sm">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                <h5 class="modal-title" id="mySmallModalLabel">提示</h5>
+            </div>
+            <div class="modal-body text-center">
+                您确定要执行此操作？
+            </div>
+            <div class="modal-footer">
+                <a href="javascript:;" role="button" class="btn btn-success btn-sm pull-left">确认</a>
+                <a href="javascript:;" role="button" class="btn btn-warning btn-sm pull-right">放弃</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="js/jquery.min.js"></script>
+<!-- plugins -->
+<script src="js/plugins/transition.js"></script>
+<script src="js/plugins/dropdown.js"></script>
+<script src="js/plugins/tab.js"></script>
+<script src="js/plugins/tooltip.js"></script>
+<script src="js/plugins/modal.js"></script>
+<script src="js/plugins/iCheck/icheck.min.js"></script>
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+<script src="js/ie10-viewport-bug-workaround.js"></script>
+<!-- scrollbar -->
+<script src="js/scrollbar/jquery.mousewheel.js"></script>
+<script src="js/scrollbar/perfect-scrollbar.js"></script>
+<script type="text/javascript">
+    $(function(){
+        // 外部文件引入
+        $("#header").load("header.html");
+        $("#left").load("left.html");
+
+        // 表单全选
+        $('#cbAll').on('ifChecked', function(event){
+            $('input[name="batchCheckBox"]').iCheck('check');
+        });
+        $('#cbAll').on('ifUnchecked', function(event){
+            $('input[name="batchCheckBox"]').iCheck('uncheck');
+        });  
+    });
+    // scrollbar 滚动条
+    //------------------------------------------
+    jQuery(document).ready(function ($) {
+        "use strict";
+        $('.scroll_bar').perfectScrollbar();
+    });
+    $(function () {
+        // iCheck
+        //------------------------------------------
+        //Enable iCheck plugin for checkboxes
+        //iCheck for checkbox and radio inputs
+        $('.mailbox-messages input[type="checkbox"]').iCheck({
+            checkboxClass: 'icheckbox_flat-blue',
+            radioClass: 'iradio_flat-blue'
+        });
+
+        //Enable check and uncheck all functionality
+        $(".checkbox-toggle").click(function () {
+            var clicks = $(this).data('clicks');
+            if (clicks) {
+                //Uncheck all checkboxes
+                $(".mailbox-messages input[type='checkbox']").iCheck("uncheck");
+                $("i", this).removeClass("icon-check").addClass('icon-check-empty');
+            } else {
+                //Check all checkboxes
+                $(".mailbox-messages input[type='checkbox']").iCheck("check");
+                $("i", this).removeClass("icon-check-empty").addClass('icon-check');
+            }
+            $(this).data("clicks", !clicks);
+        });
+        // Tooltip
+        //------------------------------------------
+        $("[data-toggle='tooltip']").tooltip();
+    });
+</script>
+<!-- AdminLTE App -->
+<script src="js/app.js"></script>
+</body>
+</html>

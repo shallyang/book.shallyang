@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="img/ico/favicon.ico">
+
+    <title>鼎商动力后台管理系统 V1.1</title>
+
+    <!-- Ploceidae core CSS -->
+    <link href="css/ploceidae.css" rel="stylesheet">
+    <!-- perfect-scrollbar CSS -->
+    <link href="css/perfect-scrollbar.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.min.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body class="hold-transition skin-blue sidebar-mini">
+<!-- Main Header -->
+<div id="header"></div>
+<div class="wrapper">
+    <!-- Left side column. contains the logo and sidebar -->
+    <div id="left"></div>
+    <!-- Content Wrapper. Contains page content -->
+    <div class="content-wrapper scroll_bar order-detail">
+        <div class="content">
+            <ol class="breadcrumb">
+                <li><a href="javascript:;"><i class="icon-tools"></i> 课程管理</a></li>
+                <li class="active">课程详情</li>
+            </ol>
+            <div class="box box-primary">
+                <div class="box-header with-border">
+                    <h5 class="box-title">课程详情</h5>
+                    <div class="box-tools">
+                        <div class="has-feedback">
+                            <a href="B1_course_list.html" class="btn btn-primary btn-sm"><i class="icon-jump"></i> 返回</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- /.box-header -->
+                <div class="box-body no-padding">
+                    <div class="order-detail-table">
+                        <!--课程基本信息-->
+                        <div class="table-bot">
+                            <h5><b>课程基本信息：</b></h5>
+                            <table class="table table-bordered text-center">
+                                <thead>
+                                <tr>
+                                    <th>发布者</th>
+                                    <th>发布者介绍</th>
+                                    <th>适合人群</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr>
+                                    <td>机构讲师</td>
+                                    <td>钛网校xx讲师，培训总监</td>
+                                    <td>白领，小白，零基础，妇女，美妆达人</td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="table-bot">
+                            <h5><b>课程信息：</b></h5>
+                            <table class="table table-bordered text-center">
+                                <thead>
+                                <tr>
+                                    <th>编号</th>
+                                    <th>课程标题</th>
+                                    <th>课程分类</th>
+                                    <th>费用类型</th>
+                                    <th>学习方式</th>
+                                    <th>课程费用(元)</th>
+                                    <th>开始时间</th>
+                                    <th>结束时间</th>
+                                    <th>课程状态</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr>
+                                	<td>1</td>
+                                    <td>
+                                        <div class="table-content">
+	                                		<div class="table-content-text">
+	                                			PS教父李涛新课：带你成为摄影后期高手
+	                                		</div>
+	                                		<div class="table-content-red">
+	                                			永久有效（视频回放）
+	                                		</div>
+	                                	</div>
+                                    </td>
+                                    <td>摄影</td>
+                                    <td>付费</td>
+                                    <td>直播</td>
+                                    <td>500</td>
+                                    <td>2016-04-28</td>
+                                    <td>2016-04-28</td>
+                                    <td>正常</td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="table-bot">
+                            <h5><b>课程描述：</b></h5>
+                            <table class="table table-bordered text-center">
+                                <thead>
+	                                <tr>
+	                                    <th>描述</th>
+	                                </tr>
+                                </thead>
+                                <tbody>
+	                                <tr>
+	                                    <td class="text-left">人丑还素颜？活该你单身！看脸的时代，女神就是要会“妆”！《五分钟学会化妆》零基础入门，手残星人必备良品，约会妆、白领妆、OL妆、烟熏...xxxxxxxxxxx</td>
+	                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /.content-wrapper -->
+</div>
+<!-- Modal -->
+<div class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+    <div class="modal-dialog modal-sm">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                <h5 class="modal-title" id="mySmallModalLabel">提示</h5>
+            </div>
+            <div class="modal-body text-center">
+                您确定要执行此操作？
+            </div>
+            <div class="modal-footer">
+                <a href="javascript:;" role="button" class="btn btn-success btn-sm pull-left">确认</a>
+                <a href="javascript:;" role="button" class="btn btn-warning btn-sm pull-right" data-dismiss="modal">放弃</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="js/jquery.min.js"></script>
+<!-- plugins -->
+<script src="js/plugins/transition.js"></script>
+<script src="js/plugins/dropdown.js"></script>
+<script src="js/plugins/tab.js"></script>
+<script src="js/plugins/tooltip.js"></script>
+<script src="js/plugins/modal.js"></script>
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+<script src="js/ie10-viewport-bug-workaround.js"></script>
+<!-- scrollbar -->
+<script src="js/scrollbar/jquery.mousewheel.js"></script>
+<script src="js/scrollbar/perfect-scrollbar.js"></script>
+<script type="text/javascript">
+    $(function(){
+        // 外部文件引入
+        $("#header").load("header.html");
+        $("#left").load("left.html");
+    });
+    // scrollbar 滚动条
+    //------------------------------------------
+    jQuery(document).ready(function ($) {
+        "use strict";
+        $('.scroll_bar').perfectScrollbar();
+    });
+</script>
+<!-- AdminLTE App -->
+<script src="js/app.js"></script>
+</body>
+</html>

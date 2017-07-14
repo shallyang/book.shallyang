@@ -1,0 +1,34 @@
+.weui-tabbar__item {
+  position: relative;
+
+  &.weui-bar__item--on .weui-tabbar__label {
+    color: @color-primary;
+  }
+}
+.weui-navbar__item {
+  color: @graydark;
+
+  &.weui-bar__item--on {
+    color: @pink;
+    border-bottom: 1px solid #ff5256;
+    font-weight: bold;
+  }
+}
+
+.weui-tab__bd {
+  box-sizing: border-box;
+  height: 100%;
+  .weui-tab__bd-item {
+    display: none;
+    height: 100%;
+    overflow: auto;
+
+    &.weui-tab__bd-item--active {
+      display: block;
+    }
+  }
+}
+
+.weui-navbar + .weui-tab__bd {
+  padding-top: 41px;
+}

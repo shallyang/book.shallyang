@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="img/ico/favicon.ico">
+
+    <title>婚庆教学后台管理系统</title>
+
+    <!-- Ploceidae core CSS -->
+    <link href="css/ploceidae.css" rel="stylesheet">
+    <!-- perfect-scrollbar CSS -->
+    <link href="css/perfect-scrollbar.css" rel="stylesheet">
+    <!-- iCheck checkbox-->
+    <link rel="stylesheet" href="css/plugins/iCheck/flat/blue.css">
+    <!-- datepicker 普通日期选择器-->
+    <link rel="stylesheet" href="css/plugins/datepicker/datepicker3.css">
+    <!-- 表单验证插件-->
+    <script src="js/plugins/validation/jquery.validate.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.min.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body class="hold-transition skin-blue sidebar-mini">
+<!-- Main Header -->
+    <div id="header"></div>
+<div class="wrapper">
+    <!-- Left side column. contains the logo and sidebar -->
+    <div id="left"></div>
+
+    <!-- Content Wrapper. Contains page content -->
+    <div class="content-wrapper scroll_bar">
+        <div class="content">
+            <ol class="breadcrumb">
+                <li><a href="javascript:;"><i class="icon-gear"></i> 管理员管理</a></li>
+                <li>添加管理员</li>
+            </ol>
+            <div class="box box-primary">
+                <div class="box-header with-border">
+                    <h5 class="box-title"></h5>
+                    <div class="box-tools">
+                        <div class="has-feedback">
+                            <a href="F18_administrator_list.html" class="btn btn-primary btn-sm"><i class="icon-jump"></i> 返回</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- /.box-header -->
+                <div class="box-body no-padding">
+                    <form class="form-horizontal">
+                        <div class="box-body">
+                            <div class="form-group has-feedback">
+                                <label class="col-sm-2 control-label"><span class="font-red">*&nbsp;</span>登录名称：</label>
+                                <div class="col-sm-10">
+                                    <input class="form-control" type="text" name="category" placeholder="请输入登录名称">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="col-sm-2 control-label"><span class="font-red">*&nbsp;</span>选择分组：</label>
+                                <div class="col-sm-10">
+                                    <select class="form-control" name="select">
+                                        <option></option>
+                                        <option>--分组名1</option>
+                                        <option>--分组名2</option>
+                                        <option>--分组名3</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="form-group has-feedback">
+                                <label class="col-sm-2 control-label"><span class="font-red">*&nbsp;</span>密码：</label>
+                                <div class="col-sm-10">
+                                    <input class="form-control" type="password" id="password" name="password" placeholder="请输入密码">
+                                </div>
+                            </div>
+                            <div class="form-group has-feedback">
+                                <label class="col-sm-2 control-label"><span class="font-red">*&nbsp;</span>确认密码：</label>
+                                <div class="col-sm-10">
+                                    <input class="form-control" type="password" name="rePassword" placeholder="请再次输入密码">
+                                </div>
+                            </div>
+                            <div class="form-group has-feedback">
+                                <label class="col-sm-2 control-label"><span class="font-red">*&nbsp;</span>姓名：</label>
+                                <div class="col-sm-10">
+                                    <input class="form-control" type="text" name="name" placeholder="请输入姓名">
+                                </div>
+                            </div>
+                            <div class="form-group has-feedback">
+                                <label class="col-sm-2 control-label"><span class="font-red">*&nbsp;</span>手机号：</label>
+                                <div class="col-sm-10">
+                                    <input class="form-control" type="text" name="phone" placeholder="请输入手机号">
+                                </div>
+                            </div>
+                            <div class="form-group has-feedback">
+                                <label class="col-sm-2 control-label"><span class="font-red">*&nbsp;</span>E-mail地址：</label>
+                                <div class="col-sm-10">
+                                    <input class="form-control" type="text" name="Email" placeholder="请输入E-mail地址">
+                                </div>
+                            </div>
+                            <div class="form-group has-feedback">
+                                <label class="col-sm-2 control-label">  备注：</label>
+                                <div class="col-sm-10">
+                                <textarea class="form-control" placeholder="请填写备注"></textarea>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-sm-10 col-sm-offset-2">
+                                    <button type="submit" class="btn btn-info btn-sm save">保存</button>
+                                    <button type="reset" onclick="window.location.reload()" class="btn btn-default btn-sm">重置</button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- /.box-body -->
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- /.content-wrapper -->
+</div>
+
+<!-- Modal -->
+<div class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+    <div class="modal-dialog modal-sm">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                <h5 class="modal-title" id="mySmallModalLabel">提示</h5>
+            </div>
+            <div class="modal-body text-center">
+                您确定要执行此操作？
+            </div>
+            <div class="modal-footer">
+                <a href="javascript:;" role="button" class="btn btn-success btn-sm pull-left">确认</a>
+                <a href="javascript:;" role="button" class="btn btn-warning btn-sm pull-right">放弃</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Modal -->
+<div class="modal fade" id="gridSystemModal" tabindex="-1" role="dialog" aria-labelledby="gridModalLabel">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                <h5 class="modal-title" id="gridModalLabel">查看</h5>
+            </div>
+            <div class="modal-body text-center">
+                <img src="img/temp/flv.png">
+            </div>
+            <div class="modal-footer">
+                <a href="javascript:;" role="button" class="btn btn-success btn-sm text-center">确认</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="js/jquery.min.js"></script>
+<!-- plugins -->
+<script src="js/plugins/transition.js"></script>
+<script src="js/plugins/dropdown.js"></script>
+<!--<script src="js/plugins/tab.js"></script>-->
+<script src="js/plugins/tooltip.js"></script>
+<script src="js/plugins/modal.js"></script>
+<script src="js/plugins/iCheck/icheck.min.js"></script>
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+<script src="js/ie10-viewport-bug-workaround.js"></script>
+<!-- scrollbar -->
+<script src="js/scrollbar/jquery.mousewheel.js"></script>
+<script src="js/scrollbar/perfect-scrollbar.js"></script>
+<!-- 普通日期选择器 -->
+<script src="js/plugins/datepicker/datepicker.js"></script>
+<!-- 表单验证插件 -->
+<script src="js/plugins/validation/jquery.validate.js"></script>
+<script type="text/javascript">
+
+    $(function(){
+        // 外部文件引入
+        $("#header").load("header.html");
+        $("#left").load("left.html");
+    });
+    // scrollbar 滚动条
+    //------------------------------------------
+    jQuery(document).ready(function ($) {
+        "use strict";
+        $('.scroll_bar').perfectScrollbar();
+    });
+
+    //Date range picker with time picker（普通日期选择器）
+    $('.datepicker').datepicker({
+        autoclose: true
+    });
+
+    $(function () {
+        // iCheck
+        //------------------------------------------
+        //Enable iCheck plugin for checkboxes
+        //iCheck for checkbox and radio inputs
+        $('.mailbox-messages input[type="checkbox"]').iCheck({
+            checkboxClass: 'icheckbox_flat-blue',
+            radioClass: 'iradio_flat-blue'
+        });
+
+        //Enable check and uncheck all functionality
+        $(".checkbox-toggle").click(function () {
+            var clicks = $(this).data('clicks');
+            if (clicks) {
+                //Uncheck all checkboxes
+                $(".mailbox-messages input[type='checkbox']").iCheck("uncheck");
+                $("i", this).removeClass("icon-check").addClass('icon-check-empty');
+            } else {
+                //Check all checkboxes
+                $(".mailbox-messages input[type='checkbox']").iCheck("check");
+                $("i", this).removeClass("icon-check-empty").addClass('icon-check');
+            }
+            $(this).data("clicks", !clicks);
+        });
+        // Tooltip
+        //------------------------------------------
+        $("[data-toggle='tooltip']").tooltip();
+
+        //----------validate--------------------------------
+        // 手机号码验证
+        $.validator.addMethod("isMobile", function(value, element) {
+            var length = value.length;
+            var mobile = /^1[3|4|5|7|8]\d{9}$/;
+            return this.optional(element) || (length == 11 && mobile.test(value));
+        }, "请正确填写您的手机号码");
+        $.validator.addMethod("isPass", function(value, element) {
+            var pass = /^(\w){6,16}$/;
+            return this.optional(element) || (pass.test(value));
+        }, "请正确填写您的手机号码");
+        // 邮箱号码验证
+        $.validator.addMethod("isEmail", function(value, element) {
+            var mobile = /^([a-zA-Z0-9]+[_|\_|\.]?)*[a-zA-Z0-9]+@([a-zA-Z0-9]+[_|\_|\.]?)*[a-zA-Z0-9]+\.[a-zA-Z]{2,3}$/;
+            return this.optional(element) || (mobile.test(value));
+        }, "请正确填写您的邮箱号码");
+
+        $('.form-horizontal').validate({
+            rules: {
+                category:{
+                    required: true
+                },
+                name:{
+                    required: true
+                },
+                phone: {
+                    required: true,
+                    minlength: 11,
+                    isMobile : true
+                },
+                select:{
+                    required: true,
+                    minlength: 1
+                },
+                optionsRadios: {
+                    required:true
+                },
+                password: {
+                    required: true,
+                    isPass:true
+                },
+                rePassword: {
+                    equalTo: "#password"
+                },
+                Email: {
+                    required: true,
+                    isEmail : true
+                }
+            },
+            messages: {
+                category:{
+                    required: '请输入登录名称'
+                },
+                name: {
+                    required: '请输入姓名'
+                },
+                phone: {
+                    required: "请输入手机号码",
+                    minlength: "手机号码不能小于11个字符",
+                    isMobile : "请填写正确的手机号"
+                },
+                select:{
+                    required: '请选择分组',
+                    minlength: '请选择分组'
+                },
+                optionsRadios: {
+                    required: '请选择状态'
+                },
+                password: {
+                    required: "请输入密码",
+                    isPass: "密码只允许6-16位英文、数字和下画线"
+                },
+                rePassword: {
+                    equalTo: "两次密码不一致"
+                },
+                Email: {
+                    required: '请输入邮箱',
+                    isEmail : '邮箱格式不正确'
+                }
+            }
+        });//validate
+    });
+</script>
+<!-- AdminLTE App -->
+<script src="js/app.js"></script>
+</body>
+</html>
