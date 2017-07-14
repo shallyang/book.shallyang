@@ -3,6 +3,7 @@
 <head>
     <meta charset="utf-8">
     <title>亚太结婚产业视频交流</title>
+    <base href="<?=$this->config->item('base_url')?>www/" />
     <meta name="Keywords" content="亚太结婚产业视频交流" />
     <meta name="Description" content="亚太结婚产业视频交流" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
