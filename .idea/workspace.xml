@@ -2,188 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="acb024f9-9bb8-48c2-837e-882679aa04d2" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backstage/application/views/index.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backstage/application/config/config.php" afterPath="$PROJECT_DIR$/backstage/application/config/config.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backstage/php_errors.log" afterPath="$PROJECT_DIR$/backstage/php_errors.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backstage/www/css/perfect-scrollbar.css" afterPath="$PROJECT_DIR$/backstage/www/css/perfect-scrollbar.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backstage/www/css/ploceidae.css" afterPath="$PROJECT_DIR$/backstage/www/css/ploceidae.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backstage/www/css/plugins/datepicker/datepicker3.css" afterPath="$PROJECT_DIR$/backstage/www/css/plugins/datepicker/datepicker3.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backstage/www/css/plugins/emojiPicker/emoji.css" afterPath="$PROJECT_DIR$/backstage/www/css/plugins/emojiPicker/emoji.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backstage/www/css/plugins/emojiPicker/nanoscroller.css" afterPath="$PROJECT_DIR$/backstage/www/css/plugins/emojiPicker/nanoscroller.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backstage/www/css/plugins/iCheck/flat/blue.css" afterPath="$PROJECT_DIR$/backstage/www/css/plugins/iCheck/flat/blue.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backstage/www/css/plugins/iCheck/minimal/blue.css" afterPath="$PROJECT_DIR$/backstage/www/css/plugins/iCheck/minimal/blue.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backstage/www/fonts/iconfont.svg" afterPath="$PROJECT_DIR$/backstage/www/fonts/iconfont.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backstage/www/js/app.js" afterPath="$PROJECT_DIR$/backstage/www/js/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backstage/www/js/html5shiv.min.js" afterPath="$PROJECT_DIR$/backstage/www/js/html5shiv.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backstage/www/js/ie10-viewport-bug-workaround.js" afterPath="$PROJECT_DIR$/backstage/www/js/ie10-viewport-bug-workaround.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backstage/www/js/jquery.min.js" afterPath="$PROJECT_DIR$/backstage/www/js/jquery.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backstage/www/js/plugins/KindEditor.js" afterPath="$PROJECT_DIR$/backstage/www/js/plugins/KindEditor.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backstage/www/js/plugins/alert.js" afterPath="$PROJECT_DIR$/backstage/www/js/plugins/alert.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backstage/www/js/plugins/dad/jquery.dad.min.js" afterPath="$PROJECT_DIR$/backstage/www/js/plugins/dad/jquery.dad.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backstage/www/js/plugins/datepicker/datepicker.js" afterPath="$PROJECT_DIR$/backstage/www/js/plugins/datepicker/datepicker.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backstage/www/js/plugins/datepicker/datepicker3.css" afterPath="$PROJECT_DIR$/backstage/www/js/plugins/datepicker/datepicker3.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backstage/www/js/plugins/dropdown.js" afterPath="$PROJECT_DIR$/backstage/www/js/plugins/dropdown.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backstage/www/js/plugins/echarts/echarts.common.min.js" afterPath="$PROJECT_DIR$/backstage/www/js/plugins/echarts/echarts.common.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backstage/www/js/plugins/emojiPicker/config.js" afterPath="$PROJECT_DIR$/backstage/www/js/plugins/emojiPicker/config.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backstage/www/js/plugins/emojiPicker/emoji-picker.js" afterPath="$PROJECT_DIR$/backstage/www/js/plugins/emojiPicker/emoji-picker.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backstage/www/js/plugins/emojiPicker/jquery.emojiarea.js" afterPath="$PROJECT_DIR$/backstage/www/js/plugins/emojiPicker/jquery.emojiarea.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backstage/www/js/plugins/emojiPicker/nanoscroller.min.js" afterPath="$PROJECT_DIR$/backstage/www/js/plugins/emojiPicker/nanoscroller.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backstage/www/js/plugins/emojiPicker/util.js" afterPath="$PROJECT_DIR$/backstage/www/js/plugins/emojiPicker/util.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backstage/www/js/plugins/iCheck/icheck.min.js" afterPath="$PROJECT_DIR$/backstage/www/js/plugins/iCheck/icheck.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backstage/www/js/plugins/jquery.blueimp-gallery.js" afterPath="$PROJECT_DIR$/backstage/www/js/plugins/jquery.blueimp-gallery.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backstage/www/js/plugins/jqueryUI/jquery-ui.min.js" afterPath="$PROJECT_DIR$/backstage/www/js/plugins/jqueryUI/jquery-ui.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backstage/www/js/plugins/kindEditor/kindeditor-all-min.js" afterPath="$PROJECT_DIR$/backstage/www/js/plugins/kindEditor/kindeditor-all-min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backstage/www/js/plugins/kindEditor/kindeditor-all.js" afterPath="$PROJECT_DIR$/backstage/www/js/plugins/kindEditor/kindeditor-all.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backstage/www/js/plugins/kindEditor/kindeditor-min.js" afterPath="$PROJECT_DIR$/backstage/www/js/plugins/kindEditor/kindeditor-min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backstage/www/js/plugins/kindEditor/kindeditor.js" afterPath="$PROJECT_DIR$/backstage/www/js/plugins/kindEditor/kindeditor.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backstage/www/js/plugins/kindEditor/lang/ar.js" afterPath="$PROJECT_DIR$/backstage/www/js/plugins/kindEditor/lang/ar.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backstage/www/js/plugins/kindEditor/lang/en.js" afterPath="$PROJECT_DIR$/backstage/www/js/plugins/kindEditor/lang/en.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backstage/www/js/plugins/kindEditor/lang/zh_CN.js" afterPath="$PROJECT_DIR$/backstage/www/js/plugins/kindEditor/lang/zh_CN.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backstage/www/js/plugins/kindEditor/lang/zh_TW.js" afterPath="$PROJECT_DIR$/backstage/www/js/plugins/kindEditor/lang/zh_TW.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backstage/www/js/plugins/kindEditor/plugins/anchor/anchor.js" afterPath="$PROJECT_DIR$/backstage/www/js/plugins/kindEditor/plugins/anchor/anchor.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backstage/www/js/plugins/kindEditor/plugins/baidumap/baidumap.js" afterPath="$PROJECT_DIR$/backstage/www/js/plugins/kindEditor/plugins/baidumap/baidumap.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backstage/www/js/plugins/kindEditor/plugins/baidumap/index.html" afterPath="$PROJECT_DIR$/backstage/www/js/plugins/kindEditor/plugins/baidumap/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backstage/www/js/plugins/kindEditor/plugins/baidumap/map.html" afterPath="$PROJECT_DIR$/backstage/www/js/plugins/kindEditor/plugins/baidumap/map.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backstage/www/js/plugins/kindEditor/plugins/clearhtml/clearhtml.js" afterPath="$PROJECT_DIR$/backstage/www/js/plugins/kindEditor/plugins/clearhtml/clearhtml.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backstage/www/js/plugins/kindEditor/plugins/code/code.js" afterPath="$PROJECT_DIR$/backstage/www/js/plugins/kindEditor/plugins/code/code.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backstage/www/js/plugins/kindEditor/plugins/code/prettify.css" afterPath="$PROJECT_DIR$/backstage/www/js/plugins/kindEditor/plugins/code/prettify.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backstage/www/js/plugins/kindEditor/plugins/code/prettify.js" afterPath="$PROJECT_DIR$/backstage/www/js/plugins/kindEditor/plugins/code/prettify.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backstage/www/js/plugins/kindEditor/plugins/emoticons/emoticons.js" afterPath="$PROJECT_DIR$/backstage/www/js/plugins/kindEditor/plugins/emoticons/emoticons.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backstage/www/js/plugins/kindEditor/plugins/filemanager/filemanager.js" afterPath="$PROJECT_DIR$/backstage/www/js/plugins/kindEditor/plugins/filemanager/filemanager.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backstage/www/js/plugins/kindEditor/plugins/flash/flash.js" afterPath="$PROJECT_DIR$/backstage/www/js/plugins/kindEditor/plugins/flash/flash.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backstage/www/js/plugins/kindEditor/plugins/image/image.js" afterPath="$PROJECT_DIR$/backstage/www/js/plugins/kindEditor/plugins/image/image.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backstage/www/js/plugins/kindEditor/plugins/insertfile/insertfile.js" afterPath="$PROJECT_DIR$/backstage/www/js/plugins/kindEditor/plugins/insertfile/insertfile.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backstage/www/js/plugins/kindEditor/plugins/lineheight/lineheight.js" afterPath="$PROJECT_DIR$/backstage/www/js/plugins/kindEditor/plugins/lineheight/lineheight.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backstage/www/js/plugins/kindEditor/plugins/link/link.js" afterPath="$PROJECT_DIR$/backstage/www/js/plugins/kindEditor/plugins/link/link.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backstage/www/js/plugins/kindEditor/plugins/map/map.html" afterPath="$PROJECT_DIR$/backstage/www/js/plugins/kindEditor/plugins/map/map.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backstage/www/js/plugins/kindEditor/plugins/map/map.js" afterPath="$PROJECT_DIR$/backstage/www/js/plugins/kindEditor/plugins/map/map.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backstage/www/js/plugins/kindEditor/plugins/media/media.js" afterPath="$PROJECT_DIR$/backstage/www/js/plugins/kindEditor/plugins/media/media.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backstage/www/js/plugins/kindEditor/plugins/multiimage/multiimage.js" afterPath="$PROJECT_DIR$/backstage/www/js/plugins/kindEditor/plugins/multiimage/multiimage.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backstage/www/js/plugins/kindEditor/plugins/pagebreak/pagebreak.js" afterPath="$PROJECT_DIR$/backstage/www/js/plugins/kindEditor/plugins/pagebreak/pagebreak.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backstage/www/js/plugins/kindEditor/plugins/plainpaste/plainpaste.js" afterPath="$PROJECT_DIR$/backstage/www/js/plugins/kindEditor/plugins/plainpaste/plainpaste.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backstage/www/js/plugins/kindEditor/plugins/preview/preview.js" afterPath="$PROJECT_DIR$/backstage/www/js/plugins/kindEditor/plugins/preview/preview.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backstage/www/js/plugins/kindEditor/plugins/quickformat/quickformat.js" afterPath="$PROJECT_DIR$/backstage/www/js/plugins/kindEditor/plugins/quickformat/quickformat.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backstage/www/js/plugins/kindEditor/plugins/table/table.js" afterPath="$PROJECT_DIR$/backstage/www/js/plugins/kindEditor/plugins/table/table.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backstage/www/js/plugins/kindEditor/plugins/template/html/1.html" afterPath="$PROJECT_DIR$/backstage/www/js/plugins/kindEditor/plugins/template/html/1.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backstage/www/js/plugins/kindEditor/plugins/template/html/2.html" afterPath="$PROJECT_DIR$/backstage/www/js/plugins/kindEditor/plugins/template/html/2.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backstage/www/js/plugins/kindEditor/plugins/template/html/3.html" afterPath="$PROJECT_DIR$/backstage/www/js/plugins/kindEditor/plugins/template/html/3.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backstage/www/js/plugins/kindEditor/plugins/template/template.js" afterPath="$PROJECT_DIR$/backstage/www/js/plugins/kindEditor/plugins/template/template.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backstage/www/js/plugins/kindEditor/plugins/wordpaste/wordpaste.js" afterPath="$PROJECT_DIR$/backstage/www/js/plugins/kindEditor/plugins/wordpaste/wordpaste.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backstage/www/js/plugins/kindEditor/themes/default/default.css" afterPath="$PROJECT_DIR$/backstage/www/js/plugins/kindEditor/themes/default/default.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backstage/www/js/plugins/kindEditor/themes/qq/qq.css" afterPath="$PROJECT_DIR$/backstage/www/js/plugins/kindEditor/themes/qq/qq.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backstage/www/js/plugins/kindEditor/themes/simple/simple.css" afterPath="$PROJECT_DIR$/backstage/www/js/plugins/kindEditor/themes/simple/simple.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backstage/www/js/plugins/modal.js" afterPath="$PROJECT_DIR$/backstage/www/js/plugins/modal.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backstage/www/js/plugins/tab.js" afterPath="$PROJECT_DIR$/backstage/www/js/plugins/tab.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backstage/www/js/plugins/tooltip.js" afterPath="$PROJECT_DIR$/backstage/www/js/plugins/tooltip.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backstage/www/js/plugins/transition.js" afterPath="$PROJECT_DIR$/backstage/www/js/plugins/transition.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backstage/www/js/plugins/treeview/jquery.treemenu.js" afterPath="$PROJECT_DIR$/backstage/www/js/plugins/treeview/jquery.treemenu.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backstage/www/js/plugins/validation/jquery.validate.js" afterPath="$PROJECT_DIR$/backstage/www/js/plugins/validation/jquery.validate.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backstage/www/js/plugins/waterfall/jquery.imagesloaded.js" afterPath="$PROJECT_DIR$/backstage/www/js/plugins/waterfall/jquery.imagesloaded.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backstage/www/js/plugins/waterfall/jquery.wookmark.js" afterPath="$PROJECT_DIR$/backstage/www/js/plugins/waterfall/jquery.wookmark.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backstage/www/js/plugins/webuploader/getting-started.js" afterPath="$PROJECT_DIR$/backstage/www/js/plugins/webuploader/getting-started.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backstage/www/js/plugins/webuploader/webuploader.js" afterPath="$PROJECT_DIR$/backstage/www/js/plugins/webuploader/webuploader.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backstage/www/js/plugins/weixinMenu/menu.js" afterPath="$PROJECT_DIR$/backstage/www/js/plugins/weixinMenu/menu.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backstage/www/js/plugins/weixinautoreply/wei_autoreply.js" afterPath="$PROJECT_DIR$/backstage/www/js/plugins/weixinautoreply/wei_autoreply.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backstage/www/js/respond.min.js" afterPath="$PROJECT_DIR$/backstage/www/js/respond.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backstage/www/js/scrollbar/jquery.mousewheel.js" afterPath="$PROJECT_DIR$/backstage/www/js/scrollbar/jquery.mousewheel.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backstage/www/js/scrollbar/perfect-scrollbar.js" afterPath="$PROJECT_DIR$/backstage/www/js/scrollbar/perfect-scrollbar.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backstage/www/less/alerts.less" afterPath="$PROJECT_DIR$/backstage/www/less/alerts.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backstage/www/less/badges.less" afterPath="$PROJECT_DIR$/backstage/www/less/badges.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backstage/www/less/boxes.less" afterPath="$PROJECT_DIR$/backstage/www/less/boxes.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backstage/www/less/breadcrumbs.less" afterPath="$PROJECT_DIR$/backstage/www/less/breadcrumbs.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backstage/www/less/button-groups.less" afterPath="$PROJECT_DIR$/backstage/www/less/button-groups.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backstage/www/less/buttons.less" afterPath="$PROJECT_DIR$/backstage/www/less/buttons.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backstage/www/less/carousel.less" afterPath="$PROJECT_DIR$/backstage/www/less/carousel.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backstage/www/less/close.less" afterPath="$PROJECT_DIR$/backstage/www/less/close.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backstage/www/less/code.less" afterPath="$PROJECT_DIR$/backstage/www/less/code.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backstage/www/less/component-animations.less" afterPath="$PROJECT_DIR$/backstage/www/less/component-animations.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backstage/www/less/core.less" afterPath="$PROJECT_DIR$/backstage/www/less/core.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backstage/www/less/custom.less" afterPath="$PROJECT_DIR$/backstage/www/less/custom.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backstage/www/less/default-theme.less" afterPath="$PROJECT_DIR$/backstage/www/less/default-theme.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backstage/www/less/dingfeng.less" afterPath="$PROJECT_DIR$/backstage/www/less/dingfeng.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backstage/www/less/dropdown.less" afterPath="$PROJECT_DIR$/backstage/www/less/dropdown.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backstage/www/less/dropdowns.less" afterPath="$PROJECT_DIR$/backstage/www/less/dropdowns.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backstage/www/less/fengruxian.less" afterPath="$PROJECT_DIR$/backstage/www/less/fengruxian.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backstage/www/less/forms.less" afterPath="$PROJECT_DIR$/backstage/www/less/forms.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backstage/www/less/gaochao.less" afterPath="$PROJECT_DIR$/backstage/www/less/gaochao.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backstage/www/less/grid.less" afterPath="$PROJECT_DIR$/backstage/www/less/grid.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backstage/www/less/icons.less" afterPath="$PROJECT_DIR$/backstage/www/less/icons.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backstage/www/less/input-groups.less" afterPath="$PROJECT_DIR$/backstage/www/less/input-groups.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backstage/www/less/jumbotron.less" afterPath="$PROJECT_DIR$/backstage/www/less/jumbotron.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backstage/www/less/labels.less" afterPath="$PROJECT_DIR$/backstage/www/less/labels.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backstage/www/less/list-group.less" afterPath="$PROJECT_DIR$/backstage/www/less/list-group.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backstage/www/less/mailbox.less" afterPath="$PROJECT_DIR$/backstage/www/less/mailbox.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backstage/www/less/main-header.less" afterPath="$PROJECT_DIR$/backstage/www/less/main-header.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backstage/www/less/media.less" afterPath="$PROJECT_DIR$/backstage/www/less/media.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backstage/www/less/miscellaneous.less" afterPath="$PROJECT_DIR$/backstage/www/less/miscellaneous.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backstage/www/less/mixins.less" afterPath="$PROJECT_DIR$/backstage/www/less/mixins.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backstage/www/less/mixins/alerts.less" afterPath="$PROJECT_DIR$/backstage/www/less/mixins/alerts.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backstage/www/less/mixins/background-variant.less" afterPath="$PROJECT_DIR$/backstage/www/less/mixins/background-variant.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backstage/www/less/mixins/border-radius.less" afterPath="$PROJECT_DIR$/backstage/www/less/mixins/border-radius.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backstage/www/less/mixins/boxes.less" afterPath="$PROJECT_DIR$/backstage/www/less/mixins/boxes.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backstage/www/less/mixins/buttons.less" afterPath="$PROJECT_DIR$/backstage/www/less/mixins/buttons.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backstage/www/less/mixins/center-block.less" afterPath="$PROJECT_DIR$/backstage/www/less/mixins/center-block.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backstage/www/less/mixins/clearfix.less" afterPath="$PROJECT_DIR$/backstage/www/less/mixins/clearfix.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backstage/www/less/mixins/forms.less" afterPath="$PROJECT_DIR$/backstage/www/less/mixins/forms.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backstage/www/less/mixins/gradients.less" afterPath="$PROJECT_DIR$/backstage/www/less/mixins/gradients.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backstage/www/less/mixins/grid-framework.less" afterPath="$PROJECT_DIR$/backstage/www/less/mixins/grid-framework.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backstage/www/less/mixins/grid.less" afterPath="$PROJECT_DIR$/backstage/www/less/mixins/grid.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backstage/www/less/mixins/hide-text.less" afterPath="$PROJECT_DIR$/backstage/www/less/mixins/hide-text.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backstage/www/less/mixins/image.less" afterPath="$PROJECT_DIR$/backstage/www/less/mixins/image.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backstage/www/less/mixins/labels.less" afterPath="$PROJECT_DIR$/backstage/www/less/mixins/labels.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backstage/www/less/mixins/list-group.less" afterPath="$PROJECT_DIR$/backstage/www/less/mixins/list-group.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backstage/www/less/mixins/nav-divider.less" afterPath="$PROJECT_DIR$/backstage/www/less/mixins/nav-divider.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backstage/www/less/mixins/nav-vertical-align.less" afterPath="$PROJECT_DIR$/backstage/www/less/mixins/nav-vertical-align.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backstage/www/less/mixins/opacity.less" afterPath="$PROJECT_DIR$/backstage/www/less/mixins/opacity.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backstage/www/less/mixins/pagination.less" afterPath="$PROJECT_DIR$/backstage/www/less/mixins/pagination.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backstage/www/less/mixins/panels.less" afterPath="$PROJECT_DIR$/backstage/www/less/mixins/panels.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backstage/www/less/mixins/progress-bar.less" afterPath="$PROJECT_DIR$/backstage/www/less/mixins/progress-bar.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backstage/www/less/mixins/reset-filter.less" afterPath="$PROJECT_DIR$/backstage/www/less/mixins/reset-filter.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backstage/www/less/mixins/reset-text.less" afterPath="$PROJECT_DIR$/backstage/www/less/mixins/reset-text.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backstage/www/less/mixins/resize.less" afterPath="$PROJECT_DIR$/backstage/www/less/mixins/resize.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backstage/www/less/mixins/responsive-visibility.less" afterPath="$PROJECT_DIR$/backstage/www/less/mixins/responsive-visibility.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backstage/www/less/mixins/size.less" afterPath="$PROJECT_DIR$/backstage/www/less/mixins/size.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backstage/www/less/mixins/tab-focus.less" afterPath="$PROJECT_DIR$/backstage/www/less/mixins/tab-focus.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backstage/www/less/mixins/table-row.less" afterPath="$PROJECT_DIR$/backstage/www/less/mixins/table-row.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backstage/www/less/mixins/text-emphasis.less" afterPath="$PROJECT_DIR$/backstage/www/less/mixins/text-emphasis.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backstage/www/less/mixins/text-overflow.less" afterPath="$PROJECT_DIR$/backstage/www/less/mixins/text-overflow.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backstage/www/less/mixins/vendor-prefixes.less" afterPath="$PROJECT_DIR$/backstage/www/less/mixins/vendor-prefixes.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backstage/www/less/modals.less" afterPath="$PROJECT_DIR$/backstage/www/less/modals.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backstage/www/less/navbar.less" afterPath="$PROJECT_DIR$/backstage/www/less/navbar.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backstage/www/less/navs.less" afterPath="$PROJECT_DIR$/backstage/www/less/navs.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backstage/www/less/normalize.less" afterPath="$PROJECT_DIR$/backstage/www/less/normalize.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backstage/www/less/pager.less" afterPath="$PROJECT_DIR$/backstage/www/less/pager.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backstage/www/less/pagination.less" afterPath="$PROJECT_DIR$/backstage/www/less/pagination.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backstage/www/less/panels.less" afterPath="$PROJECT_DIR$/backstage/www/less/panels.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backstage/www/less/photo-list.less" afterPath="$PROJECT_DIR$/backstage/www/less/photo-list.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backstage/www/less/ploceidae.less" afterPath="$PROJECT_DIR$/backstage/www/less/ploceidae.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backstage/www/less/popovers.less" afterPath="$PROJECT_DIR$/backstage/www/less/popovers.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backstage/www/less/print.less" afterPath="$PROJECT_DIR$/backstage/www/less/print.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backstage/www/less/products.less" afterPath="$PROJECT_DIR$/backstage/www/less/products.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backstage/www/less/progress-bars.less" afterPath="$PROJECT_DIR$/backstage/www/less/progress-bars.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backstage/www/less/pxt.less" afterPath="$PROJECT_DIR$/backstage/www/less/pxt.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backstage/www/less/qqFace.less" afterPath="$PROJECT_DIR$/backstage/www/less/qqFace.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backstage/www/less/responsive-embed.less" afterPath="$PROJECT_DIR$/backstage/www/less/responsive-embed.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backstage/www/less/responsive-utilities.less" afterPath="$PROJECT_DIR$/backstage/www/less/responsive-utilities.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backstage/www/less/scaffolding.less" afterPath="$PROJECT_DIR$/backstage/www/less/scaffolding.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backstage/www/less/sidebar-mini.less" afterPath="$PROJECT_DIR$/backstage/www/less/sidebar-mini.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backstage/www/less/sidebar.less" afterPath="$PROJECT_DIR$/backstage/www/less/sidebar.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backstage/www/less/small-box.less" afterPath="$PROJECT_DIR$/backstage/www/less/small-box.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backstage/www/less/tables.less" afterPath="$PROJECT_DIR$/backstage/www/less/tables.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backstage/www/less/theme.less" afterPath="$PROJECT_DIR$/backstage/www/less/theme.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backstage/www/less/thumbnails.less" afterPath="$PROJECT_DIR$/backstage/www/less/thumbnails.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backstage/www/less/tooltip.less" afterPath="$PROJECT_DIR$/backstage/www/less/tooltip.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backstage/www/less/treeview.less" afterPath="$PROJECT_DIR$/backstage/www/less/treeview.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backstage/www/less/type.less" afterPath="$PROJECT_DIR$/backstage/www/less/type.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backstage/www/less/utilities.less" afterPath="$PROJECT_DIR$/backstage/www/less/utilities.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backstage/www/less/variables.less" afterPath="$PROJECT_DIR$/backstage/www/less/variables.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backstage/www/less/wells.less" afterPath="$PROJECT_DIR$/backstage/www/less/wells.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/application/config/config.php" afterPath="$PROJECT_DIR$/mobile/application/config/config.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/application/views/index.php" afterPath="$PROJECT_DIR$/mobile/application/views/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/php_errors.log" afterPath="$PROJECT_DIR$/mobile/php_errors.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile_0/application/config/config.php" afterPath="$PROJECT_DIR$/mobile_0/application/config/config.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile_0/application/views/index.php" afterPath="$PROJECT_DIR$/mobile_0/application/views/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile_0/php_errors.log" afterPath="$PROJECT_DIR$/mobile_0/php_errors.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -234,6 +53,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -246,63 +66,8 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="book.shallyang" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="book.shallyang" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="backstage" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="book.shallyang" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="book.shallyang" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="backstage" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="book.shallyang" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="book.shallyang" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="backstage" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -332,32 +97,33 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1500045153316</updated>
-      <workItem from="1500045155039" duration="138000" />
+      <workItem from="1500045155039" duration="969000" />
+      <workItem from="1500092431126" duration="1053000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="138000" />
+    <option name="totallyTimeSpent" value="2022000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <layout>
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24743778" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -376,7 +142,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="241">
           <caret line="336" column="24" lean-forward="true" selection-start-line="336" selection-start-column="24" selection-end-line="336" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
